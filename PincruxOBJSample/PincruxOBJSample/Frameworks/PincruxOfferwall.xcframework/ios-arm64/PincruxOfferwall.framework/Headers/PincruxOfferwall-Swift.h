@@ -279,10 +279,10 @@ SWIFT_PROTOCOL("_TtP16PincruxOfferwall22OfferwallPointDelegate_")
 SWIFT_CLASS("_TtC16PincruxOfferwall19OfferwallPointItems")
 @interface OfferwallPointItems : NSObject
 - (nonnull instancetype)init:(NSString * _Nonnull)status :(NSInteger)pubkey :(NSInteger)ad_coin1 :(NSInteger)ad_coin2 :(NSInteger)ad_coin3 :(NSInteger)ad_coin4 :(double)nowTime OBJC_DESIGNATED_INITIALIZER;
-@property (nonatomic, readonly, copy) NSString * _Nonnull financeCoin;
-@property (nonatomic, readonly, copy) NSString * _Nonnull cpaCoin;
-@property (nonatomic, readonly, copy) NSString * _Nonnull socialCoin;
-@property (nonatomic, readonly, copy) NSString * _Nonnull cpsCoin;
+@property (nonatomic, readonly) NSInteger financeCoin;
+@property (nonatomic, readonly) NSInteger cpaCoin;
+@property (nonatomic, readonly) NSInteger socialCoin;
+@property (nonatomic, readonly) NSInteger cpsCoin;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

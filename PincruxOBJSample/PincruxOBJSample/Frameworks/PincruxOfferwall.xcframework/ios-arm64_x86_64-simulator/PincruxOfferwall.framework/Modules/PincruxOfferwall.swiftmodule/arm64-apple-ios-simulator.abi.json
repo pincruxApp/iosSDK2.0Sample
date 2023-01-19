@@ -2248,14 +2248,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@PincruxOfferwall@objc(cs)OfferwallPointItems(py)financeCoin",
-            "mangledName": "$s16PincruxOfferwall0B10PointItemsC11financeCoinSSvp",
+            "mangledName": "$s16PincruxOfferwall0B10PointItemsC11financeCoinSivp",
             "moduleName": "PincruxOfferwall",
             "declAttributes": [
               "AccessControl",
@@ -2269,14 +2269,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PincruxOfferwall@objc(cs)OfferwallPointItems(im)financeCoin",
-                "mangledName": "$s16PincruxOfferwall0B10PointItemsC11financeCoinSSvg",
+                "mangledName": "$s16PincruxOfferwall0B10PointItemsC11financeCoinSivg",
                 "moduleName": "PincruxOfferwall",
                 "declAttributes": [
                   "ObjC"
@@ -2292,14 +2292,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@PincruxOfferwall@objc(cs)OfferwallPointItems(py)cpaCoin",
-            "mangledName": "$s16PincruxOfferwall0B10PointItemsC7cpaCoinSSvp",
+            "mangledName": "$s16PincruxOfferwall0B10PointItemsC7cpaCoinSivp",
             "moduleName": "PincruxOfferwall",
             "declAttributes": [
               "AccessControl",
@@ -2313,14 +2313,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PincruxOfferwall@objc(cs)OfferwallPointItems(im)cpaCoin",
-                "mangledName": "$s16PincruxOfferwall0B10PointItemsC7cpaCoinSSvg",
+                "mangledName": "$s16PincruxOfferwall0B10PointItemsC7cpaCoinSivg",
                 "moduleName": "PincruxOfferwall",
                 "declAttributes": [
                   "ObjC"
@@ -2336,14 +2336,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@PincruxOfferwall@objc(cs)OfferwallPointItems(py)socialCoin",
-            "mangledName": "$s16PincruxOfferwall0B10PointItemsC10socialCoinSSvp",
+            "mangledName": "$s16PincruxOfferwall0B10PointItemsC10socialCoinSivp",
             "moduleName": "PincruxOfferwall",
             "declAttributes": [
               "AccessControl",
@@ -2357,14 +2357,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PincruxOfferwall@objc(cs)OfferwallPointItems(im)socialCoin",
-                "mangledName": "$s16PincruxOfferwall0B10PointItemsC10socialCoinSSvg",
+                "mangledName": "$s16PincruxOfferwall0B10PointItemsC10socialCoinSivg",
                 "moduleName": "PincruxOfferwall",
                 "declAttributes": [
                   "ObjC"
@@ -2380,14 +2380,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@PincruxOfferwall@objc(cs)OfferwallPointItems(py)cpsCoin",
-            "mangledName": "$s16PincruxOfferwall0B10PointItemsC7cpsCoinSSvp",
+            "mangledName": "$s16PincruxOfferwall0B10PointItemsC7cpsCoinSivp",
             "moduleName": "PincruxOfferwall",
             "declAttributes": [
               "AccessControl",
@@ -2401,14 +2401,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@PincruxOfferwall@objc(cs)OfferwallPointItems(im)cpsCoin",
-                "mangledName": "$s16PincruxOfferwall0B10PointItemsC7cpsCoinSSvg",
+                "mangledName": "$s16PincruxOfferwall0B10PointItemsC7cpsCoinSivg",
                 "moduleName": "PincruxOfferwall",
                 "declAttributes": [
                   "ObjC"
@@ -8926,21 +8926,21 @@
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/PincruxCollectionViewControllerBase.swift",
       "kind": "BooleanLiteral",
-      "offset": 3035,
+      "offset": 3090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/PincruxCollectionViewControllerBase.swift",
       "kind": "BooleanLiteral",
-      "offset": 3085,
+      "offset": 3140,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/PincruxCollectionViewControllerBase.swift",
       "kind": "BooleanLiteral",
-      "offset": 3552,
+      "offset": 3607,
       "length": 4,
       "value": "true"
     },
@@ -10319,70 +10319,77 @@
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 234,
+      "length": 8,
+      "value": "\"910962\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
       "length": 8,
       "value": "\"910817\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 260,
+      "offset": 292,
       "length": 8,
       "value": "\"911248\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 321,
       "length": 8,
       "value": "\"910890\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 350,
       "length": 8,
       "value": "\"911238\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 379,
       "length": 8,
       "value": "\"911089\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 376,
+      "offset": 408,
       "length": 8,
       "value": "\"910571\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 405,
+      "offset": 437,
       "length": 8,
       "value": "\"910694\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 435,
+      "offset": 467,
       "length": 8,
       "value": "\"910913\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 498,
       "length": 8,
       "value": "\"911169\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 524,
       "length": 8,
       "value": "\"911152\""
     },
@@ -10403,238 +10410,259 @@
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 234,
+      "length": 8,
+      "value": "\"910962\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
       "length": 8,
       "value": "\"910817\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 260,
+      "offset": 292,
       "length": 8,
       "value": "\"911248\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 321,
       "length": 8,
       "value": "\"910890\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 350,
       "length": 8,
       "value": "\"911238\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 379,
       "length": 8,
       "value": "\"911089\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 376,
+      "offset": 408,
       "length": 8,
       "value": "\"910571\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 405,
+      "offset": 437,
       "length": 8,
       "value": "\"910694\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 435,
+      "offset": 467,
       "length": 8,
       "value": "\"910913\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 498,
       "length": 8,
       "value": "\"911169\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 524,
       "length": 8,
       "value": "\"911152\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 554,
+      "offset": 586,
       "length": 9,
       "value": "\"DEFAULT\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 608,
+      "offset": 640,
       "length": 6,
       "value": "\"CLUV\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 635,
+      "offset": 670,
+      "length": 13,
+      "value": "\"CJ_ONE_TEST\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
       "length": 8,
       "value": "\"CJ_ONE\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 664,
+      "offset": 733,
       "length": 9,
       "value": "\"CYWORLD\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 763,
       "length": 6,
       "value": "\"HANA\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 721,
+      "offset": 790,
       "length": 5,
       "value": "\"LGU\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 747,
+      "offset": 816,
       "length": 8,
       "value": "\"LPOINT\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 776,
+      "offset": 845,
       "length": 4,
       "value": "\"NC\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 801,
+      "offset": 870,
       "length": 8,
       "value": "\"TICKET\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 831,
+      "offset": 900,
       "length": 11,
       "value": "\"KT_TICKET\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 865,
+      "offset": 934,
       "length": 12,
       "value": "\"FINNQ_TEST\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 964,
       "length": 7,
       "value": "\"FINNQ\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 554,
+      "offset": 586,
       "length": 9,
       "value": "\"DEFAULT\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 608,
+      "offset": 640,
       "length": 6,
       "value": "\"CLUV\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 635,
+      "offset": 670,
+      "length": 13,
+      "value": "\"CJ_ONE_TEST\""
+    },
+    {
+      "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
       "length": 8,
       "value": "\"CJ_ONE\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 664,
+      "offset": 733,
       "length": 9,
       "value": "\"CYWORLD\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 763,
       "length": 6,
       "value": "\"HANA\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 721,
+      "offset": 790,
       "length": 5,
       "value": "\"LGU\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 747,
+      "offset": 816,
       "length": 8,
       "value": "\"LPOINT\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 776,
+      "offset": 845,
       "length": 4,
       "value": "\"NC\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 801,
+      "offset": 870,
       "length": 8,
       "value": "\"TICKET\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 831,
+      "offset": 900,
       "length": 11,
       "value": "\"KT_TICKET\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 865,
+      "offset": 934,
       "length": 12,
       "value": "\"FINNQ_TEST\""
     },
     {
       "filePath": "\/Users\/pc\/Desktop\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 964,
       "length": 7,
       "value": "\"FINNQ\""
     },

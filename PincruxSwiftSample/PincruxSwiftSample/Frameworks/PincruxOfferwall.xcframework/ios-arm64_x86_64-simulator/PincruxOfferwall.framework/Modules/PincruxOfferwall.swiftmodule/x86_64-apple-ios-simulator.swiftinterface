@@ -83,16 +83,16 @@ extension PincruxOfferwall.TicketCustomPopupOptions {
 }
 @objc public class OfferwallPointItems : ObjectiveC.NSObject {
   @objc public init(_ status: Swift.String, _ pubkey: Swift.Int, _ ad_coin1: Swift.Int, _ ad_coin2: Swift.Int, _ ad_coin3: Swift.Int, _ ad_coin4: Swift.Int, _ nowTime: Swift.Double)
-  @objc public var financeCoin: Swift.String {
+  @objc public var financeCoin: Swift.Int {
     @objc get
   }
-  @objc public var cpaCoin: Swift.String {
+  @objc public var cpaCoin: Swift.Int {
     @objc get
   }
-  @objc public var socialCoin: Swift.String {
+  @objc public var socialCoin: Swift.Int {
     @objc get
   }
-  @objc public var cpsCoin: Swift.String {
+  @objc public var cpsCoin: Swift.Int {
     @objc get
   }
   @objc deinit
