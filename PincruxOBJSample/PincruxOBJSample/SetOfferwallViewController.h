@@ -9,7 +9,7 @@
 #define SetOfferwallViewController_h
 
 #import <UIKit/UIKit.h>
-#import <PincruxOfferwall/PincruxOfferwallSDK.h>
+#import <PincruxOfferwall/PincruxOfferwall-Swift.h>
 #import "ViewTypeViewController.h"
 
 @interface SetOfferwallViewController : UIViewController
