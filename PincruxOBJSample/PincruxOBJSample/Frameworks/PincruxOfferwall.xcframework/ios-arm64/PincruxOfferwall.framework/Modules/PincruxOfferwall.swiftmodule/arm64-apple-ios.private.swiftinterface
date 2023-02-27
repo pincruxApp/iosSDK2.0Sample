@@ -97,9 +97,6 @@ extension PincruxOfferwall.TicketCustomPopupOptions {
   }
   @objc deinit
 }
-extension UIKit.UIColor {
-  convenience public init?(hex: Swift.String)
-}
 public protocol PincruxTabMenuOptions {
   var font: UIKit.UIFont { get }
   var menuItemSize: PincruxOfferwall.TabMenuItemSize { get }
