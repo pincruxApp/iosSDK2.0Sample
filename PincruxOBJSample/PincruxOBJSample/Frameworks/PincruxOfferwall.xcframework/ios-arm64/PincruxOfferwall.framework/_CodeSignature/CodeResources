@@ -30,11 +30,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uwX7HlWngAyUCbMq3R8MLd97pdw=
+		SAnIaa1fJDU71hJOisFEBSOFlAQ=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qqLyI2+Zz4iTs5CxiqnyKMwUEO8=
+		axy0l60Ppa8zIm/7lJZfMtLNV6s=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GYlWJc9e2qLL12oAn6iBR1Qq3ds=
+		d9sG4qszxe36dRkCwBmvvovAckY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -604,7 +604,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ihZadXdVNpDqpxOOS6v2IDqfbGc=
+			BSmovuxc4AyJgx55WnaNpCI0pdI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -658,7 +658,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oDhTNtyTuB2rOaTxhW260WT9TtRynphHW4vWvKkjseQ=
+			lXTRD5aUMiwljr6WM/hDwR+ol330usbpbeTzxANINac=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -686,7 +686,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EppUsHtNN6/+1qxngOGnwCkYopAShfslJIRnqG1EfRo=
+			dKcVqeSOAbCcth8/xijjScIS3UXwhkNgfNiSQMRz1tQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1652,7 +1652,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ao6lxm7m6WD6FbCHnUEMqw3BLnvJlrBZNBh/bmKask=
+			aiJceOan6eKkU7/unRmiIhQR3Ki/IIgnZPTPtzCdpP8=
 			</data>
 			<key>optional</key>
 			<true/>
