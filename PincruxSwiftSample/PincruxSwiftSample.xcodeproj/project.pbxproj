@@ -17,18 +17,18 @@
 		30960A08288E15060013D140 /* ViewTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30960A07288E15060013D140 /* ViewTypeViewController.swift */; };
 		631E404D2947018100BCC696 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E404C2947018000BCC696 /* AdSupport.framework */; };
 		631E404F2947018600BCC696 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E404E2947018600BCC696 /* AppTrackingTransparency.framework */; };
-		638469C429B969270059689C /* PincruxOfferwall.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638469C329B969260059689C /* PincruxOfferwall.xcframework */; };
-		638469C529B969270059689C /* PincruxOfferwall.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 638469C329B969260059689C /* PincruxOfferwall.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6371D24A29ED22E4000184AD /* PincruxOfferwall.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6371D24929ED22E3000184AD /* PincruxOfferwall.xcframework */; };
+		6371D24B29ED22E4000184AD /* PincruxOfferwall.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6371D24929ED22E3000184AD /* PincruxOfferwall.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		63DC6B4B29AC3D1E007CBE9B /* Embed Frameworks */ = {
+		6371D24C29ED22E4000184AD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				638469C529B969270059689C /* PincruxOfferwall.xcframework in Embed Frameworks */,
+				6371D24B29ED22E4000184AD /* PincruxOfferwall.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,7 +48,7 @@
 		30960A07288E15060013D140 /* ViewTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTypeViewController.swift; sourceTree = "<group>"; };
 		631E404C2947018000BCC696 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		631E404E2947018600BCC696 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
-		638469C329B969260059689C /* PincruxOfferwall.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PincruxOfferwall.xcframework; path = PincruxSwiftSample/Frameworks/PincruxOfferwall.xcframework; sourceTree = "<group>"; };
+		6371D24929ED22E3000184AD /* PincruxOfferwall.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PincruxOfferwall.xcframework; path = PincruxSwiftSample/Frameworks/PincruxOfferwall.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			files = (
 				631E404F2947018600BCC696 /* AppTrackingTransparency.framework in Frameworks */,
 				631E404D2947018100BCC696 /* AdSupport.framework in Frameworks */,
-				638469C429B969270059689C /* PincruxOfferwall.xcframework in Frameworks */,
+				6371D24A29ED22E4000184AD /* PincruxOfferwall.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		30960A02288AA27D0013D140 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				638469C329B969260059689C /* PincruxOfferwall.xcframework */,
+				6371D24929ED22E3000184AD /* PincruxOfferwall.xcframework */,
 				631E404E2947018600BCC696 /* AppTrackingTransparency.framework */,
 				631E404C2947018000BCC696 /* AdSupport.framework */,
 			);
@@ -118,7 +118,7 @@
 				309609DF288A76C50013D140 /* Sources */,
 				309609E0288A76C50013D140 /* Frameworks */,
 				309609E1288A76C50013D140 /* Resources */,
-				63DC6B4B29AC3D1E007CBE9B /* Embed Frameworks */,
+				6371D24C29ED22E4000184AD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
