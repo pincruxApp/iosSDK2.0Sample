@@ -19,18 +19,18 @@
 		30960A3F288E1BC80013D140 /* PubkeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30960A3E288E1BC80013D140 /* PubkeyViewController.m */; };
 		630D312A2952ED2B00FEFA56 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630D31292952ED2B00FEFA56 /* AdSupport.framework */; };
 		630D312C2952ED3100FEFA56 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630D312B2952ED3100FEFA56 /* AppTrackingTransparency.framework */; };
-		63A46C072A15BE9900B77AB4 /* PincruxOfferwall.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A46C062A15BE9800B77AB4 /* PincruxOfferwall.xcframework */; };
-		63A46C082A15BE9900B77AB4 /* PincruxOfferwall.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63A46C062A15BE9800B77AB4 /* PincruxOfferwall.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63A46C0C2A31AF5A00B77AB4 /* PincruxOfferwall.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A46C062A15BE9800B77AB4 /* PincruxOfferwall.xcframework */; };
+		63A46C0D2A31AF5A00B77AB4 /* PincruxOfferwall.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63A46C062A15BE9800B77AB4 /* PincruxOfferwall.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6371D25029ED2309000184AD /* Embed Frameworks */ = {
+		63A46C0E2A31AF5A00B77AB4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				63A46C082A15BE9900B77AB4 /* PincruxOfferwall.xcframework in Embed Frameworks */,
+				63A46C0D2A31AF5A00B77AB4 /* PincruxOfferwall.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +68,7 @@
 			files = (
 				630D312C2952ED3100FEFA56 /* AppTrackingTransparency.framework in Frameworks */,
 				630D312A2952ED2B00FEFA56 /* AdSupport.framework in Frameworks */,
-				63A46C072A15BE9900B77AB4 /* PincruxOfferwall.xcframework in Frameworks */,
+				63A46C0C2A31AF5A00B77AB4 /* PincruxOfferwall.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +136,7 @@
 				30960A15288E1AB90013D140 /* Sources */,
 				30960A16288E1AB90013D140 /* Frameworks */,
 				30960A17288E1AB90013D140 /* Resources */,
-				6371D25029ED2309000184AD /* Embed Frameworks */,
+				63A46C0E2A31AF5A00B77AB4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
