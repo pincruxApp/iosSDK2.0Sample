@@ -35,7 +35,7 @@ class ViewTypeViewController: UIViewController {
     
     
     @objc func enterForeground() {
-        self.off?.enterForground()
+        self.off?.enterForeground()
     }
 }
 

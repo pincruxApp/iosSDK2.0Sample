@@ -25,7 +25,7 @@
 }
 
 -(void) enterForeground:(NSNotification *)note {
-    [self.offerwall enterForground];
+    [self.offerwall enterForeground];
 }
 
 -(void)viewDidLoad {

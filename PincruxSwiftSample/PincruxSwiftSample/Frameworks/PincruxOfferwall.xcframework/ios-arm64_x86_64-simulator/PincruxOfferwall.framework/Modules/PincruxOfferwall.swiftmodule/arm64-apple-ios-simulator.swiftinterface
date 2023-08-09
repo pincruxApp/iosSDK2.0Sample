@@ -180,7 +180,7 @@ public struct Random {
   @objc public func setUnityOfferwall(_ unity: Swift.Bool)
   @objc public func setOrientationLandscape(_ isLandscape: Swift.Bool)
   @objc public func setDarkMode(_ isDark: PincruxOfferwall.DarkMode)
-  @objc public func enterForground()
+  @objc public func enterForeground()
   @objc public func setOfferwallCategory(_ category: PincruxOfferwall.OfferwallCategory)
   @objc public func getAdPoint()
   @objc deinit

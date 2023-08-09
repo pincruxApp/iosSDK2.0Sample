@@ -326,7 +326,7 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)setUnityOfferwall:(BOOL)unity;
 - (void)setOrientationLandscape:(BOOL)isLandscape;
 - (void)setDarkMode:(enum DarkMode)isDark;
-- (void)enterForground;
+- (void)enterForeground;
 - (void)setOfferwallCategory:(enum OfferwallCategory)category;
 - (void)getAdPoint;
 @end
