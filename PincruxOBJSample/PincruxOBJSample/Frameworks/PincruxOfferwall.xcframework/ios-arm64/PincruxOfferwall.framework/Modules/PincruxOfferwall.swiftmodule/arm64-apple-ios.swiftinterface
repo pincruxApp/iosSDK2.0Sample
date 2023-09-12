@@ -50,7 +50,7 @@ extension PincruxOfferwall.TicketCustomPopupOptions {
   }
 }
 @objc public enum DarkMode : Swift.Int {
-  case AUTO, LIGHT_ONLY
+  case AUTO, LIGHT_ONLY, DARK_ONLY
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -179,7 +179,7 @@ public struct Random {
   @objc public func setAdDetail(_ adDetail: Swift.Bool)
   @objc public func setUnityOfferwall(_ unity: Swift.Bool)
   @objc public func setOrientationLandscape(_ isLandscape: Swift.Bool)
-  @objc public func setDarkMode(_ isDark: PincruxOfferwall.DarkMode)
+  @objc public func setDarkMode(_ currentDarkMode: PincruxOfferwall.DarkMode)
   @objc public func enterForeground()
   @objc public func setOfferwallCategory(_ category: PincruxOfferwall.OfferwallCategory)
   @objc public func getAdPoint()

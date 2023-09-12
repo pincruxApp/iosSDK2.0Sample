@@ -256,6 +256,7 @@ using UInt = size_t;
 typedef SWIFT_ENUM(NSInteger, DarkMode, open) {
   DarkModeAUTO = 0,
   DarkModeLIGHT_ONLY = 1,
+  DarkModeDARK_ONLY = 2,
 };
 
 
@@ -325,7 +326,7 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)setAdDetail:(BOOL)adDetail;
 - (void)setUnityOfferwall:(BOOL)unity;
 - (void)setOrientationLandscape:(BOOL)isLandscape;
-- (void)setDarkMode:(enum DarkMode)isDark;
+- (void)setDarkMode:(enum DarkMode)currentDarkMode;
 - (void)enterForeground;
 - (void)setOfferwallCategory:(enum OfferwallCategory)category;
 - (void)getAdPoint;
@@ -632,6 +633,7 @@ using UInt = size_t;
 typedef SWIFT_ENUM(NSInteger, DarkMode, open) {
   DarkModeAUTO = 0,
   DarkModeLIGHT_ONLY = 1,
+  DarkModeDARK_ONLY = 2,
 };
 
 
@@ -701,7 +703,7 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)setAdDetail:(BOOL)adDetail;
 - (void)setUnityOfferwall:(BOOL)unity;
 - (void)setOrientationLandscape:(BOOL)isLandscape;
-- (void)setDarkMode:(enum DarkMode)isDark;
+- (void)setDarkMode:(enum DarkMode)currentDarkMode;
 - (void)enterForeground;
 - (void)setOfferwallCategory:(enum OfferwallCategory)category;
 - (void)getAdPoint;
