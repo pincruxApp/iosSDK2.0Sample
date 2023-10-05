@@ -2871,6 +2871,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2956,6 +2966,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PincruxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -4800,6 +4820,26 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6020,6 +6060,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6027,6 +6084,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall"
       },
       {
         "kind": "Import",
@@ -6092,6 +6166,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PincruxOfferwall",
         "declAttributes": [
@@ -6500,6 +6584,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall"
       },
       {
         "kind": "Import",
@@ -6990,21 +7091,21 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/PincruxTableViewBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 2273,
+      "offset": 2276,
       "length": 2,
       "value": "59"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/PincruxTableViewBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 2278,
+      "offset": 2281,
       "length": 2,
       "value": "54"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/PincruxTableViewBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 7099,
+      "offset": 7108,
       "length": 1,
       "value": "0"
     },
@@ -8334,7 +8435,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/footerbase\/whitetype\/PincruxFooterWhiteType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1383,
+      "offset": 1365,
       "length": 2,
       "value": "16"
     },
@@ -8446,14 +8547,14 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/sortbase\/PincruxSortViewBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 887,
+      "offset": 444,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/sortbase\/PincruxSortViewBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 946,
+      "offset": 503,
       "length": 1,
       "value": "0"
     },
@@ -8992,224 +9093,259 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 371,
+      "offset": 380,
       "length": 40,
       "value": "\"offerwall_tab_participation_accumulate\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 434,
       "length": 35,
       "value": "\"offerwall_tab_purchase_accumulate\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 556,
       "length": 29,
       "value": "\"offerwall_tab_participation\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 590,
+      "offset": 599,
       "length": 24,
       "value": "\"offerwall_tab_purchase\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 711,
+      "offset": 720,
       "length": 40,
       "value": "\"offerwall_tab_participation_accumulate\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 764,
+      "offset": 773,
       "length": 34,
       "value": "\"offerwall_tab_finance_accumulate\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 888,
+      "offset": 897,
       "length": 29,
       "value": "\"offerwall_tab_participation\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 930,
+      "offset": 939,
       "length": 23,
       "value": "\"offerwall_tab_finance\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 1093,
       "length": 19,
       "value": "\"offerwall_tab_all\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1126,
       "length": 30,
       "value": "\"offerwall_tab_sns_accumulate\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1170,
       "length": 40,
       "value": "\"offerwall_tab_participation_accumulate\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1224,
       "length": 35,
       "value": "\"offerwall_tab_purchase_accumulate\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1312,
+      "offset": 1321,
       "length": 19,
       "value": "\"offerwall_tab_all\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1345,
+      "offset": 1354,
       "length": 30,
       "value": "\"offerwall_tab_sns_accumulate\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1389,
+      "offset": 1398,
       "length": 40,
       "value": "\"offerwall_tab_participation_accumulate\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1531,
+      "offset": 1575,
+      "length": 29,
+      "value": "\"ibk_offerwall_cpa_tab_title\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
+      "kind": "StringLiteral",
+      "offset": 1618,
+      "length": 32,
+      "value": "\"ibk_offerwall_social_tab_title\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
+      "kind": "StringLiteral",
+      "offset": 1664,
+      "length": 29,
+      "value": "\"ibk_offerwall_cps_tab_title\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
+      "kind": "StringLiteral",
+      "offset": 1753,
+      "length": 29,
+      "value": "\"ibk_offerwall_cpa_tab_title\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
+      "kind": "StringLiteral",
+      "offset": 1796,
+      "length": 32,
+      "value": "\"ibk_offerwall_social_tab_title\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
+      "kind": "StringLiteral",
+      "offset": 1930,
       "length": 19,
       "value": "\"offerwall_tab_all\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1564,
+      "offset": 1963,
       "length": 23,
       "value": "\"offerwall_tab_finance\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1601,
+      "offset": 2000,
       "length": 25,
       "value": "\"offerwall_tab_insurance\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1640,
+      "offset": 2039,
       "length": 20,
       "value": "\"offerwall_tab_card\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1755,
+      "offset": 2154,
       "length": 19,
       "value": "\"offerwall_tab_all\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1788,
+      "offset": 2187,
       "length": 26,
       "value": "\"offerwall_tab_experience\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1828,
+      "offset": 2227,
       "length": 20,
       "value": "\"offerwall_tab_join\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1942,
+      "offset": 2341,
       "length": 19,
       "value": "\"offerwall_tab_all\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 1975,
+      "offset": 2374,
       "length": 25,
       "value": "\"offerwall_tab_subscribe\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 2413,
       "length": 22,
       "value": "\"offerwall_tab_follow\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 2187,
+      "offset": 2586,
       "length": 19,
       "value": "\"offerwall_tab_all\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 2220,
+      "offset": 2619,
       "length": 19,
       "value": "\"offerwall_tab_fab\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 2253,
+      "offset": 2652,
       "length": 22,
       "value": "\"offerwall_tab_beauty\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 2289,
+      "offset": 2688,
       "length": 23,
       "value": "\"offerwall_tab_digital\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 2326,
+      "offset": 2725,
       "length": 22,
       "value": "\"offerwall_tab_health\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 2362,
+      "offset": 2761,
       "length": 20,
       "value": "\"offerwall_tab_home\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/models\/PincruxMenuTitles.swift",
       "kind": "StringLiteral",
-      "offset": 2397,
+      "offset": 2796,
       "length": 23,
       "value": "\"offerwall_tab_fashion\""
     },
@@ -9412,7 +9548,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/PincruxCollectionViewControllerBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 22691,
+      "offset": 23376,
       "length": 1,
       "value": "0"
     },
@@ -10007,7 +10143,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/footerbase\/PincruxFooterBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 1051,
+      "offset": 1130,
       "length": 2,
       "value": "16"
     },
@@ -10119,77 +10255,77 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1545,
+      "offset": 1664,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1649,
+      "offset": 1768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1658,
+      "offset": 1777,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1669,
+      "offset": 1788,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1679,
+      "offset": 1798,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1740,
+      "offset": 1859,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1746,
+      "offset": 1865,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1894,
+      "offset": 2013,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1944,
+      "offset": 2063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1971,
+      "offset": 2090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/contact\/PincruxContactCollectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2453,
+      "offset": 2572,
       "length": 4,
       "value": "true"
     },
@@ -10227,6 +10363,13 @@
       "offset": 855,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/custom\/ibk\/tableview\/PincruxTableViewIbk.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 25,
+      "value": "\"PincruxTableViewCellIbk\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/ticket_kt\/View\/UseInfoV\/PincruxUseInfoView.swift",
@@ -10770,7 +10913,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/tabbase\/tabmenu\/PincruxTabMenuView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9975,
+      "offset": 10545,
       "length": 5,
       "value": "false"
     },
@@ -11010,6 +11153,20 @@
       "kind": "StringLiteral",
       "offset": 635,
       "length": 8,
+      "value": "\"911607\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 8,
+      "value": "\"911586\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 8,
       "value": "\"911627\""
     },
     {
@@ -11129,243 +11286,285 @@
       "kind": "StringLiteral",
       "offset": 635,
       "length": 8,
+      "value": "\"911607\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 8,
+      "value": "\"911586\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 8,
       "value": "\"911627\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 750,
       "length": 9,
       "value": "\"DEFAULT\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 807,
       "length": 13,
       "value": "\"CJ_ONE_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 841,
       "length": 8,
       "value": "\"CJ_ONE\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 817,
+      "offset": 870,
       "length": 6,
       "value": "\"HANA\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 844,
+      "offset": 897,
       "length": 5,
       "value": "\"LGU\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 870,
+      "offset": 923,
       "length": 8,
       "value": "\"LPOINT\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 952,
       "length": 4,
       "value": "\"NC\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 977,
       "length": 8,
       "value": "\"TICKET\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 1007,
       "length": 11,
       "value": "\"KT_TICKET\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 988,
+      "offset": 1041,
       "length": 12,
       "value": "\"FINNQ_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1018,
+      "offset": 1071,
       "length": 7,
       "value": "\"FINNQ\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1098,
       "length": 9,
       "value": "\"FANPLUS\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1073,
+      "offset": 1126,
       "length": 8,
       "value": "\"DUCKAD\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1101,
+      "offset": 1154,
       "length": 9,
       "value": "\"THESSEN\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1186,
       "length": 12,
       "value": "\"KBPAY_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1216,
       "length": 7,
       "value": "\"KBPAY\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1244,
+      "length": 10,
+      "value": "\"IBK_TEST\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 5,
+      "value": "\"IBK\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
       "length": 10,
       "value": "\"VALUEMAP\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 750,
       "length": 9,
       "value": "\"DEFAULT\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 807,
       "length": 13,
       "value": "\"CJ_ONE_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 841,
       "length": 8,
       "value": "\"CJ_ONE\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 817,
+      "offset": 870,
       "length": 6,
       "value": "\"HANA\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 844,
+      "offset": 897,
       "length": 5,
       "value": "\"LGU\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 870,
+      "offset": 923,
       "length": 8,
       "value": "\"LPOINT\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 952,
       "length": 4,
       "value": "\"NC\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 977,
       "length": 8,
       "value": "\"TICKET\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 1007,
       "length": 11,
       "value": "\"KT_TICKET\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 988,
+      "offset": 1041,
       "length": 12,
       "value": "\"FINNQ_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1018,
+      "offset": 1071,
       "length": 7,
       "value": "\"FINNQ\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1098,
       "length": 9,
       "value": "\"FANPLUS\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1073,
+      "offset": 1126,
       "length": 8,
       "value": "\"DUCKAD\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1101,
+      "offset": 1154,
       "length": 9,
       "value": "\"THESSEN\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1186,
       "length": 12,
       "value": "\"KBPAY_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1216,
       "length": 7,
       "value": "\"KBPAY\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1244,
+      "length": 10,
+      "value": "\"IBK_TEST\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 5,
+      "value": "\"IBK\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Release\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
       "length": 10,
       "value": "\"VALUEMAP\""
     },
