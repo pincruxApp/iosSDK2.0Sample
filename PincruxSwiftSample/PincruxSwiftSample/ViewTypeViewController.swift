@@ -40,6 +40,8 @@ class ViewTypeViewController: UIViewController {
 }
 
 extension ViewTypeViewController: OfferwallViewTypeDelegate {
+    func offerwallReqClose() { }
+    
     func offerwallReceived(_ offerwallView: UIView) {
         self.customView.addSubview(offerwallView)
         offerwallView.translatesAutoresizingMaskIntoConstraints = false

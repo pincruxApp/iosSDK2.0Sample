@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		TYjZxsj4RYFTNblKyJ/BWpOw5LA=
+		0F5cpJ1VDB0GKe6BK+NAyQ3AEQ4=
 		</data>
 		<key>BasicNavigationView.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/PincruxOfferwall-Swift.h</key>
 		<data>
-		FqpCeHH3pSWvuVDAOEaD9wgajHk=
+		6kGbWYQ2FXWnFRaJnzZ1nw3YTMk=
 		</data>
 		<key>Headers/PincruxOfferwallSDK.h</key>
 		<data>
@@ -30,15 +30,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xpWbCLs8SJ5rcik1TytiP2rHgvU=
+		MreH/HF35Qv7IPnCt9OmiCjE48w=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		M0s3K1nHFhZx2YZHgSctL1yOqeU=
+		pHIa5dIjAFglQX6bCJj136NLKzY=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		tva6bU9zZgfzncQhxJvjrkj5NjA=
+		vWocwiFyfBqEiue5W8rwHDMNaHE=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		tva6bU9zZgfzncQhxJvjrkj5NjA=
+		vWocwiFyfBqEiue5W8rwHDMNaHE=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		DA7dG34tOAilgpnrhJ+5e5mNH9U=
+		LB8ggh/SDXFVvl3JzOQk2CSLJ7g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -700,7 +700,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5pAEPuDLZulvgz+B6HNmvyi1S/lvKQHtzujIPdo4z2c=
+			YoMeW6hxOUEi3jgQ8/oQ/fx8odUntFbjQE1jN570Xco=
 			</data>
 		</dict>
 		<key>BasicNavigationView.nib</key>
@@ -728,7 +728,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xde3DKsywxVKg32I5sPYiW0SxWvSfG+Vq/KQaLl5Mg=
+			VBi/ZB/wWxXzsudse0Arji0YJioRTi4SkLgQBcFAJLc=
 			</data>
 		</dict>
 		<key>Headers/PincruxOfferwallSDK.h</key>
@@ -742,14 +742,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9S3eZfmKaoTZQQ5+8MhDO1GI8/gSGJh7/sXCqGO0eLw=
+			xBulfDcYfttxD6lYr9P0+4cQLIj0Usny0maOLvYosOI=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KqYneV946zf1KTsfHNNWxDwcTCwODqXqdJrB/S+xiww=
+			2ZTncsd8HZdgi37zv45Sg0xtMZFu2SQsf3JkFZDeszE=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -763,14 +763,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KqYneV946zf1KTsfHNNWxDwcTCwODqXqdJrB/S+xiww=
+			2ZTncsd8HZdgi37zv45Sg0xtMZFu2SQsf3JkFZDeszE=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0rJFc1TO5yjw1TxZjapTKX4ncvOY/Y9wQQiPSosy13g=
+			RVLSHtaoAftK71/kROw7YN9y3c7kmnyr206RRCFlpVA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
