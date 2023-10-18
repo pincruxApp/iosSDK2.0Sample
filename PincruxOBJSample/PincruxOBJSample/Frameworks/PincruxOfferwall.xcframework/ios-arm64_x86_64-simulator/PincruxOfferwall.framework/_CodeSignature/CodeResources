@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/PincruxOfferwall-Swift.h</key>
 		<data>
-		Kb6ALxtvrY5CMjqUk0EabpfCxdQ=
+		VLeoFrOHZxjXujvVDFTbpyU1arQ=
 		</data>
 		<key>Headers/PincruxOfferwallSDK.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pHIa5dIjAFglQX6bCJj136NLKzY=
+		w5SRK2+QZCR0Yy+VsCA/2CrRpxY=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		veqMc5chnne0LD8gObvcY0vNO0k=
+		a3J0xC6Xv3zIf6EzOtqWOM1vw98=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		veqMc5chnne0LD8gObvcY0vNO0k=
+		a3J0xC6Xv3zIf6EzOtqWOM1vw98=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1ARWEMmpm/+rhXMVD8Q1T2JO9kA=
+		5KJUUJ+UNiOhA9iSSvVKrNGf7Sk=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pHIa5dIjAFglQX6bCJj136NLKzY=
+		w5SRK2+QZCR0Yy+VsCA/2CrRpxY=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7RNJHXSPt/KPsSU2uASZbgERHNY=
+		9ogvqR1f4yLVqkYqW+vv0wzLTfU=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7RNJHXSPt/KPsSU2uASZbgERHNY=
+		9ogvqR1f4yLVqkYqW+vv0wzLTfU=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ndvHl2nRTM2G0FHrcf8JRSFNDIQ=
+		b1TOfELEJ0IO51D7Nu0vi7aVIaM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -748,7 +748,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vzZz4MaA2xas6Xn0XeKhR3bfxUC/CKyj7jV8QoGHPNQ=
+			H0dSDDeCGX9rFBZpWUWTKM1juXQid7Z3f340XcS969g=
 			</data>
 		</dict>
 		<key>Headers/PincruxOfferwallSDK.h</key>
@@ -762,14 +762,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xBulfDcYfttxD6lYr9P0+4cQLIj0Usny0maOLvYosOI=
+			cIInZUTGQEW2L+D7Xj8OVpVNvwJ9j8hg0wtvJk5UCp8=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1SQfkUdBS4dMXMqEDxPDAJcwxO6wacDlCRK5cavsw+Y=
+			28W+34X9G4ik3W+FN+GCgaQEmXjXjzc8DhGHbv8FoIQ=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -783,28 +783,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1SQfkUdBS4dMXMqEDxPDAJcwxO6wacDlCRK5cavsw+Y=
+			28W+34X9G4ik3W+FN+GCgaQEmXjXjzc8DhGHbv8FoIQ=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			STWugaNU45+QZnBldxL8XK8GlgoyDzepcZ7GqYgpiUk=
+			lfNwswIOTesTLF2x/E4G2XXinCbgigEWX7sKCREAgsw=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xBulfDcYfttxD6lYr9P0+4cQLIj0Usny0maOLvYosOI=
+			cIInZUTGQEW2L+D7Xj8OVpVNvwJ9j8hg0wtvJk5UCp8=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mGDzyx/c/RIsGVmasS2I4+I5cxmmK3xZ66F/Em+Lvn0=
+			42ZRVUFHwac6grpEFhju/FopMCYvimLsAY7RAyPjrUw=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -818,14 +818,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mGDzyx/c/RIsGVmasS2I4+I5cxmmK3xZ66F/Em+Lvn0=
+			42ZRVUFHwac6grpEFhju/FopMCYvimLsAY7RAyPjrUw=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lJ7oouMmmP6RWxI7sftW5I+sgJJCV+l+QtLGSwzWgmI=
+			nYqcXPwp3CtEx9+NHgw6e9z/MbYnZ1JB/Qq6uDkl68Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

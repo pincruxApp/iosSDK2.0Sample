@@ -49,8 +49,6 @@
     [self addContstraint: offerwallView];
 }
 
-- (void)offerwallReqClose { }
-
 - (void)addContstraint:(UIView *) view{
     view.translatesAutoresizingMaskIntoConstraints = NO;
     NSLayoutConstraint *topC = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:[view superview] attribute:NSLayoutAttributeTop multiplier:1.0 constant:0];
