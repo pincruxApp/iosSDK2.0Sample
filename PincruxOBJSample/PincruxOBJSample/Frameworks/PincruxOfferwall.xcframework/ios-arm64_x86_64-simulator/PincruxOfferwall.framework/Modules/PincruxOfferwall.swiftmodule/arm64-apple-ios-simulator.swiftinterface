@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PincruxOfferwall
-// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFAudio
 import AVFoundation
 import AdSupport
@@ -13,7 +12,6 @@ import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
-import _StringProcessing
 public enum PopupObserve {
   case Filter, Terms, SMS, none
   public static func == (a: PincruxOfferwall.PopupObserve, b: PincruxOfferwall.PopupObserve) -> Swift.Bool
@@ -100,7 +98,7 @@ extension PincruxOfferwall.TicketCustomPopupOptions {
 public protocol PincruxTabMenuOptions {
   var font: UIKit.UIFont { get }
   var menuItemSize: PincruxOfferwall.TabMenuItemSize { get }
-  var menuItemMargin: CoreFoundation.CGFloat { get }
+  var menuItemMargin: CoreGraphics.CGFloat { get }
   var menuTitleColor: UIKit.UIColor { get }
   var menuTitleSelectedColor: UIKit.UIColor { get set }
   var menuUnderLine: PincruxOfferwall.TabMenuUnderLineSet { get }
@@ -113,25 +111,25 @@ extension PincruxOfferwall.PincruxTabMenuOptions {
   }
 }
 public enum TabMenuItemSize {
-  case fixed(width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat)
-  case sizeToFit(minWidth: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat)
+  case fixed(width: CoreGraphics.CGFloat, height: CoreGraphics.CGFloat)
+  case sizeToFit(minWidth: CoreGraphics.CGFloat, height: CoreGraphics.CGFloat)
 }
 extension PincruxOfferwall.TabMenuItemSize {
-  public var width: CoreFoundation.CGFloat {
+  public var width: CoreGraphics.CGFloat {
     get
   }
-  public var height: CoreFoundation.CGFloat {
+  public var height: CoreGraphics.CGFloat {
     get
   }
 }
 public enum TabMenuUnderLineSet {
-  case underline(barColor: UIKit.UIColor, height: CoreFoundation.CGFloat)
+  case underline(barColor: UIKit.UIColor, height: CoreGraphics.CGFloat)
 }
 public struct DefaultTabMenuOption : PincruxOfferwall.PincruxTabMenuOptions {
   public var menuItemSize: PincruxOfferwall.TabMenuItemSize {
     get
   }
-  public var menuItemMargin: CoreFoundation.CGFloat {
+  public var menuItemMargin: CoreGraphics.CGFloat {
     get
   }
   public var menuTitleColor: UIKit.UIColor {
@@ -169,6 +167,7 @@ public struct Random {
   @objc public static func shared() -> PincruxOfferwall.PincruxOfferwallSDK
   @objc public func startOfferwall(vc: UIKit.UIViewController)
   @objc public func startOfferwallDetailVC(vc: UIKit.UIViewController, appKey: Swift.String)
+  @objc public func startOfferwallContactVC(vc: UIKit.UIViewController, isTitleCenter: Swift.Bool = false)
   @objc public func setOfferwallType(_ type: PincruxOfferwall.OfferwallType)
   @objc public func setViewControllerType(_ type: PincruxOfferwall.ViewControllerType)
   @objc public func setEnableTab(_ isTab: Swift.Bool)
@@ -192,7 +191,7 @@ extension PincruxOfferwall.PincruxOfferwallSDK : PincruxOfferwall.OfferwallViewT
 }
 extension UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @objc get
+    @_Concurrency.MainActor(unsafe) @objc get
   }
 }
 extension PincruxOfferwall.PopupObserve : Swift.Equatable {}
