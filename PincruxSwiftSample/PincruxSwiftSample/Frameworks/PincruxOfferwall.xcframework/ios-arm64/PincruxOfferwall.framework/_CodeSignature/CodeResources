@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		AAZk2Ph9O9Zg6gjQ6Ia1StDalyQ=
+		nXli3RJdQDLIqxybUBJWOwpY5DY=
 		</data>
 		<key>BasicNavigationView.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/PincruxOfferwall-Swift.h</key>
 		<data>
-		OtvWQAFJ+BK3I8J5XmkH17gHUfU=
+		BTy4O91bz8l89A2U2iAbccmbBE0=
 		</data>
 		<key>Headers/PincruxOfferwallSDK.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		m2gJGUJKx3l6hlNV254Vs8ghh1U=
+		NTh0/RPnuw4I5uXTgfE7mXvjrEA=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		OajdBcFi3naMEY2syIz59AecAb0=
+		Y8lruMr/CJVldO+l87EnQgB3FXs=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		LVFjer+v+otupPAeR+lstrafqx0=
+		YD0XMaHdkUjwo2ootw7kES5N/cY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>PincruxContactStoryBoard.storyboardc/3c2-fH-rxY-view-2Yk-6Y-sEu.nib</key>
 		<data>
-		8QyMQ4q10K71wYq/Qyu2v/3p92k=
+		K+X7np2fTkYVW7uEQvXLehpEIoY=
 		</data>
 		<key>PincruxContactStoryBoard.storyboardc/Info.plist</key>
 		<data>
@@ -692,7 +692,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oNDw5QJyW1bQMRafJo7SBOrbQDw4FXAUtDMXRUyhxn8=
+			n15qPXCOSKo1P4Tz2naAejixOZU+SdWMKqcGeHwL7Y0=
 			</data>
 		</dict>
 		<key>BasicNavigationView.nib</key>
@@ -720,7 +720,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WJcxEfvvK+VcW4nWRoUasiTy4aNsbgLISQmT5VN5rdg=
+			9TDR07jKCBI7L0z31Z+yoPbDfQAmpI3jkHNLFBbeBd4=
 			</data>
 		</dict>
 		<key>Headers/PincruxOfferwallSDK.h</key>
@@ -741,14 +741,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PaGU+CECdqni/7VKB4+7cChqFy4nNnoUYYLfu1cUGeI=
+			ZF/NchxjTtH9pd7yb5yFcLYakspgRwo4M7tuxCGNsco=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UXGlWA5wu+Ekmw/Tp0oHdRuAYI91F8x06DXXXcAJsrg=
+			1I0mc6Z1Eev3lCVxD3CYr528+DeYanD0W03iP5kp0mI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -811,7 +811,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wqq0KfLenG1eqWlXbJ4tFtjHpBbDV46iFeD9ksbUH5E=
+			4kuXbvoN/9j32xAzlqEJiS90qZBHnT5stVkCfGApxwc=
 			</data>
 		</dict>
 		<key>PincruxContactStoryBoard.storyboardc/Info.plist</key>

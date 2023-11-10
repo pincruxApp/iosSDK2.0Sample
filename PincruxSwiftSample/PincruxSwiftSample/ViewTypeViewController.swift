@@ -58,4 +58,8 @@ extension ViewTypeViewController: OfferwallViewTypeDelegate {
     func offerwallInitFailed(_ errCode: Int) {
         print("offerwallInitFailed")
     }
+    
+    func offerwallAction() {
+        print("offerwallAction")
+    }
 }

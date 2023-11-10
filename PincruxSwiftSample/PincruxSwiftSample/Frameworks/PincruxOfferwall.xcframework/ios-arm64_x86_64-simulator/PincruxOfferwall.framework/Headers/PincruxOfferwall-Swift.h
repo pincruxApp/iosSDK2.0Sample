@@ -265,6 +265,7 @@ SWIFT_PROTOCOL("_TtP16PincruxOfferwall25OfferwallViewTypeDelegate_")
 - (void)offerwallInitSuccess;
 - (void)offerwallInitFailed:(NSInteger)errCode;
 - (void)offerwallReceived:(UIView * _Nonnull)offerwallView;
+- (void)offerwallAction;
 @end
 
 @class UIViewController;
@@ -303,6 +304,7 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)offerwallInitSuccess;
 - (void)offerwallInitFailed:(NSInteger)errCode;
 - (void)offerwallReceived:(UIView * _Nonnull)offerwallView;
+- (void)offerwallAction;
 @end
 
 
@@ -604,6 +606,7 @@ SWIFT_PROTOCOL("_TtP16PincruxOfferwall25OfferwallViewTypeDelegate_")
 - (void)offerwallInitSuccess;
 - (void)offerwallInitFailed:(NSInteger)errCode;
 - (void)offerwallReceived:(UIView * _Nonnull)offerwallView;
+- (void)offerwallAction;
 @end
 
 @class UIViewController;
@@ -642,6 +645,7 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)offerwallInitSuccess;
 - (void)offerwallInitFailed:(NSInteger)errCode;
 - (void)offerwallReceived:(UIView * _Nonnull)offerwallView;
+- (void)offerwallAction;
 @end
 
 
