@@ -31,6 +31,7 @@ class ViewTypeViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         NotificationCenter.default.removeObserver(self, name: UIApplication.willEnterForegroundNotification, object: nil)
+        off?.destroyView()
     }
     
     
@@ -39,7 +40,7 @@ class ViewTypeViewController: UIViewController {
     }
 }
 
-extension ViewTypeViewController: OfferwallViewTypeDelegate {    
+extension ViewTypeViewController: OfferwallViewTypeDelegate {
     func offerwallReceived(_ offerwallView: UIView) {
         self.customView.addSubview(offerwallView)
         offerwallView.translatesAutoresizingMaskIntoConstraints = false

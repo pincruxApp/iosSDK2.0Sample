@@ -294,6 +294,7 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)enterForeground;
 - (void)setOfferwallCategory:(enum OfferwallCategory)category;
 - (void)getAdPoint;
+- (void)destroyView;
 @end
 
 

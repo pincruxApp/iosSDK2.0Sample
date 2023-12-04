@@ -22,6 +22,7 @@
 -(void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [self.offerwall destroyView];
 }
 
 -(void) enterForeground:(NSNotification *)note {

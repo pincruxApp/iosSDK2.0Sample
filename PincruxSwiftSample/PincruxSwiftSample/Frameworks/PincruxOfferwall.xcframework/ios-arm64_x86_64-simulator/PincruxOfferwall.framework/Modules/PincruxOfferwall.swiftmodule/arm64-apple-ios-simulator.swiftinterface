@@ -7,6 +7,7 @@ import AdSupport
 import AppTrackingTransparency
 import Foundation
 import Photos
+import PhotosUI
 import Swift
 import SystemConfiguration
 import UIKit
@@ -183,6 +184,7 @@ public struct Random {
   @objc public func enterForeground()
   @objc public func setOfferwallCategory(_ category: PincruxOfferwall.OfferwallCategory)
   @objc public func getAdPoint()
+  @objc public func destroyView()
   @objc deinit
 }
 extension PincruxOfferwall.PincruxOfferwallSDK : PincruxOfferwall.OfferwallViewTypeDelegate {
