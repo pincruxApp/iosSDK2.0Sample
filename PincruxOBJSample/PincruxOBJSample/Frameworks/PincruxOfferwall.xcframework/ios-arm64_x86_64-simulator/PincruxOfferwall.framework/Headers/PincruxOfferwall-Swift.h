@@ -295,7 +295,8 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)setDarkMode:(enum DarkMode)currentDarkMode;
 - (void)enterForeground;
 - (void)setOfferwallCategory:(enum OfferwallCategory)category;
-- (void)getAdPoint;
+- (void)getAdPoint SWIFT_DEPRECATED;
+- (void)getAdPoint:(NSString * _Nonnull)pubkey;
 - (void)destroyView;
 @end
 
@@ -637,7 +638,8 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)setDarkMode:(enum DarkMode)currentDarkMode;
 - (void)enterForeground;
 - (void)setOfferwallCategory:(enum OfferwallCategory)category;
-- (void)getAdPoint;
+- (void)getAdPoint SWIFT_DEPRECATED;
+- (void)getAdPoint:(NSString * _Nonnull)pubkey;
 - (void)destroyView;
 @end
 

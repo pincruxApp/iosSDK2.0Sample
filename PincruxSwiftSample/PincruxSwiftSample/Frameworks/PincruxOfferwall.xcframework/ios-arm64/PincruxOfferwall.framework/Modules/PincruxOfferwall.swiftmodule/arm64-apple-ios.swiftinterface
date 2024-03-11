@@ -183,7 +183,9 @@ public struct Random {
   @objc public func setDarkMode(_ currentDarkMode: PincruxOfferwall.DarkMode)
   @objc public func enterForeground()
   @objc public func setOfferwallCategory(_ category: PincruxOfferwall.OfferwallCategory)
+  @available(*, deprecated)
   @objc public func getAdPoint()
+  @objc public func getAdPoint(_ pubkey: Swift.String)
   @objc public func destroyView()
   @objc deinit
 }
