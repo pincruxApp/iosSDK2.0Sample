@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		AAZk2Ph9O9Zg6gjQ6Ia1StDalyQ=
+		38/ahgpktsMADfiwWKU2g1yVtg0=
 		</data>
 		<key>BasicNavigationView.nib</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9xzllDe/b/dL1uZvy6Qg4biEyWo=
+		Jt2nO4lul4kc28pEi6H4LZvK2JE=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uq//UoIw6KKsPcpzE8TpITHZ0c8=
+		L0yzl1w/cWq9w7tJNGRFZSz2zXI=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NwwlGQpR4bAEY3LqUWJFCoX6MfA=
+		8jQfM0+Jdgbc5yzPFjIoPK9xc2s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -230,11 +230,11 @@
 		</data>
 		<key>PincruxDetailViewControllerThessen.nib/objects-13.0+.nib</key>
 		<data>
-		MDy+Knt2h5HqRBeW5z8Q5LAsxhs=
+		BLpgsG6K3rT0pC0IJx7eiL6TITY=
 		</data>
 		<key>PincruxDetailViewControllerThessen.nib/runtime.nib</key>
 		<data>
-		VIMjQyE0tpYrfU+ZGr+iKDQ0j0s=
+		ButZrh8H9W58VrC82zBZJrCl0Q4=
 		</data>
 		<key>PincruxEventBannerBase.nib/objects-13.0+.nib</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>PincruxFooterWhiteType.nib</key>
 		<data>
-		/RqkHxYBf9zJaUay1hVKYKzyI/A=
+		JfLJjGFnCEA+FbVlLioI4pHFbUc=
 		</data>
 		<key>PincruxHistoryTableViewCell.nib</key>
 		<data>
@@ -478,11 +478,11 @@
 		</data>
 		<key>PincruxTableViewCellThessenBarPremium.nib/objects-13.0+.nib</key>
 		<data>
-		uFAbSGvOUbI0loRFa0xtLyFKG34=
+		1lThUSY/g0Au5TCRipAZuGbQWXo=
 		</data>
 		<key>PincruxTableViewCellThessenBarPremium.nib/runtime.nib</key>
 		<data>
-		udSa+uoRVubV+P/NRPHM6D0QDwM=
+		iRp/GUh88pH7r87JvSXMEm91NeI=
 		</data>
 		<key>PincruxTableViewEventCellPremium.nib/objects-13.0+.nib</key>
 		<data>
@@ -720,7 +720,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Hb+dMWL8ZPsYuAuGg4LuIZjSAXM=
+			i9LQPXdJRRfnQbtVf06g76UQ8mM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -732,7 +732,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oNDw5QJyW1bQMRafJo7SBOrbQDw4FXAUtDMXRUyhxn8=
+			k4boo9wftjWj5mPPG/AlbVrSxx/1Jgek52BalRKI9zI=
 			</data>
 		</dict>
 		<key>BasicNavigationView.nib</key>
@@ -788,7 +788,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AjsSo4LhQMV82eY1WH8DgqMXRXTRA/dUA8yv6RIr2qg=
+			to+Qvy5A0roCyx2N5k2YoXc5fDv78rqsLn1wmjCNYFg=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -809,7 +809,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0AM8QeoeMDDOvTPOcJdD4360wQHVM7o2gr+rRgOSYfY=
+			SFnAspYJWtnwgSZSVQvufJegBHyZeOz+/ofCqlbH05U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1117,14 +1117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zesooO7wPJa0jjb0CjVQaUB8mQtUSiuDEhZI3n9F6AU=
+			GwfawtSbzTugmpnihJK5HurrA8U3QPPaxGVk67CljIg=
 			</data>
 		</dict>
 		<key>PincruxDetailViewControllerThessen.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rm/3CSrvsimX3jTnf99sf90tOV/ivho+goSqaeRbc1Y=
+			gYqdo8iZLnXiwXbxCmXmoMWWrdZN65new9eeYFjEgEI=
 			</data>
 		</dict>
 		<key>PincruxEventBannerBase.nib/objects-13.0+.nib</key>
@@ -1222,7 +1222,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XsvTBRo75Rx+vmF5Hy9r1jBnDbR5TqCvE7xng6uKlTc=
+			uPksUcR2Tcl1UPwAVg06Bk1miyYJfqElE/4507Ek8tw=
 			</data>
 		</dict>
 		<key>PincruxHistoryTableViewCell.nib</key>
@@ -1551,14 +1551,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e2x33lmI79qUoNRIK3K196Q9oEHFXmWepSu2kyRxJao=
+			gUC5WifY/TTZeVQfcBaAoNgUH5PNNWDXnWCxKzP2EAo=
 			</data>
 		</dict>
 		<key>PincruxTableViewCellThessenBarPremium.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xoTH4vVbOpbk/kdhSQ0rCFWM2JcXFcz0VadXa2oyM6U=
+			AvZjY14F3MIAAMMdyQ3oAMe2P8MTd7dkgV4Bl6pxyvs=
 			</data>
 		</dict>
 		<key>PincruxTableViewEventCellPremium.nib/objects-13.0+.nib</key>
@@ -1971,7 +1971,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rHdINAigvmAbmXafxNy4PrYEqZBiQfgnE2v0efkWVC0=
+			uNJQFrk7ylq+cfrk93rUIZImLKP8DJBh4ah/AuxVB2s=
 			</data>
 			<key>optional</key>
 			<true/>
