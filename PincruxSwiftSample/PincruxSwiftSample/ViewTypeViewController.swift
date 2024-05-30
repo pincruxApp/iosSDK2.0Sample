@@ -31,6 +31,11 @@ class ViewTypeViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         NotificationCenter.default.removeObserver(self, name: UIApplication.willEnterForegroundNotification, object: nil)
+        
+        // OfferwallViewController가 네비게이션 스택에서 제거될 때 함수 호출
+        if self.isMovingFromParent {
+            self.off?.destroyView() // Back 버튼 클릭시 Offerwall 메모리 종료 요청
+        }
     }
     
     
@@ -61,13 +66,5 @@ extension ViewTypeViewController: OfferwallViewTypeDelegate {
     
     func offerwallAction() {
         print("offerwallAction")
-    }
-}
-
-extension ViewTypeViewController: UINavigationControllerDelegate {
-    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
-        if viewController != self {
-            self.off?.destroyView() // Back 버튼 클릭시 Offerwall 종료 요청
-        }
     }
 }

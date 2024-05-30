@@ -22,6 +22,11 @@
 -(void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+    
+    // OfferwallViewController가 네비게이션 스택에서 제거될 때 함수 호출
+    if (self.isMovingFromParentViewController) {
+        [self.offerwall destroyView]; // Back 버튼 클릭시 Offerwall 메모리 종료 요청
+    }
 }
 
 -(void) enterForeground:(NSNotification *)note {
@@ -61,12 +66,6 @@
     NSLayoutConstraint *trailingC = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:[view superview] attribute:NSLayoutAttributeTrailing multiplier:1.0 constant:0];
     
     [[view superview] addConstraints:@[topC, bottomC, leadingC, trailingC]];
-}
-
-- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    if (viewController != self) {
-        [self.offerwall destroyView]; // Back 버튼 클릭시 Offerwall 종료 요청
-    }
 }
 
 @end
