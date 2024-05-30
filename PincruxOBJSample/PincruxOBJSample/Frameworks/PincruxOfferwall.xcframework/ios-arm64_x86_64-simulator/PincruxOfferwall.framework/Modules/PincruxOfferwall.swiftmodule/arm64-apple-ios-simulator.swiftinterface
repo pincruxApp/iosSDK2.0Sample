@@ -183,6 +183,7 @@ public struct Random {
   @objc public func setDarkMode(_ currentDarkMode: PincruxOfferwall.DarkMode)
   @objc public func enterForeground()
   @objc public func setOfferwallCategory(_ category: PincruxOfferwall.OfferwallCategory)
+  @objc public func setUseSafeArea(_ useSafeArea: Swift.Bool)
   @available(*, deprecated)
   @objc public func getAdPoint()
   @objc public func getAdPoint(_ pubkey: Swift.String)
