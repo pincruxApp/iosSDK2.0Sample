@@ -77,6 +77,7 @@ extension PincruxOfferwall.TicketCustomPopupOptions {
   @objc func offerwallInitFailed(_ errCode: Swift.Int)
   @objc func offerwallReceived(_ offerwallView: UIKit.UIView)
   @objc func offerwallAction()
+  @objc func offerwallReqClose()
 }
 @objc public protocol OfferwallPointDelegate {
   @objc func getAdPoint(_ point: PincruxOfferwall.OfferwallPointItems)
@@ -195,6 +196,7 @@ extension PincruxOfferwall.PincruxOfferwallSDK : PincruxOfferwall.OfferwallViewT
   @objc dynamic public func offerwallInitFailed(_ errCode: Swift.Int)
   @objc dynamic public func offerwallReceived(_ offerwallView: UIKit.UIView)
   @objc dynamic public func offerwallAction()
+  @objc dynamic public func offerwallReqClose()
 }
 extension UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {

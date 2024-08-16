@@ -67,4 +67,14 @@ extension ViewTypeViewController: OfferwallViewTypeDelegate {
     func offerwallAction() {
         print("offerwallAction")
     }
+    
+    func offerwallReqClose() {
+        self.off?.destroyView() // SDK에 의한 Offerwall 메모리 종료 요청
+        
+        if self.navigationController?.viewControllers.count == 1 {
+            self.dismiss(animated: true)
+        } else {
+            self.navigationController?.popViewController(animated: true)
+        }
+    }
 }

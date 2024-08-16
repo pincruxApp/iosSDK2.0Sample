@@ -58,6 +58,16 @@
     NSLog(@"offerwallAction");
 }
 
+- (void)offerwallReqClose {
+    [self.offerwall destroyView]; // SDK에 의한 Offerwall 메모리 종료 요청
+    
+    if (self.navigationController.viewControllers.count == 1) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    } else {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+}
+
 - (void)addContstraint:(UIView *) view{
     view.translatesAutoresizingMaskIntoConstraints = NO;
     NSLayoutConstraint *topC = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:[view superview] attribute:NSLayoutAttributeTop multiplier:1.0 constant:0];
