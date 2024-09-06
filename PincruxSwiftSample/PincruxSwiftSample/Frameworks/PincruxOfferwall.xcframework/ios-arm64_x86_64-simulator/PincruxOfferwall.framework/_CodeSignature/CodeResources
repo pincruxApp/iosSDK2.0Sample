@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4miyqSeH+8Z1RiFUIXtssicIDyo=
+		mP2llQ/NZwLlfgUK+mL5Pb3qqds=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F7fJNGlbkLs9hgENpjLnqQHIl7c=
+		5ofEXG1HjYJT8f2Uvv8w9oYTF20=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rW9RBsttkiC/M70RjrVUpW1bNjg=
+		eie/z4kDi3E0bjhZiNMYAawMzUg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -512,13 +512,13 @@
 		<data>
 		dN8cTWx4IlNgURm9pn4SRro4ks0=
 		</data>
-		<key>PincruxTermsViewController.nib/objects-13.0+.nib</key>
+		<key>PincruxTermsView.nib/objects-13.0+.nib</key>
 		<data>
-		qvem0eM//Cf0/U5M5mcplpK2C1U=
+		DyWYq6Yagnm3jx4jsamyjfy3N+g=
 		</data>
-		<key>PincruxTermsViewController.nib/runtime.nib</key>
+		<key>PincruxTermsView.nib/runtime.nib</key>
 		<data>
-		lT2TWyG7tCFT6ewTVHPRGTlIdhY=
+		IiNgfS9Rxa6ip22k1e0W/+mqrQo=
 		</data>
 		<key>PincruxTextPopupView.nib</key>
 		<data>
@@ -808,7 +808,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UTNglkKSVwXjHM5bffnAepCXbAOV6ZGLnfJAlsYVHHA=
+			lb4fuCw1k6N79jwDSDQ5SrGZybYb+rE+AfLGGc4J5d8=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -829,7 +829,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BhcSG1LZLCm5FiNgfT25bcjbiDx91r9Y+r7mTHbSaOY=
+			nkf0Is8AY9/nmf+KpC9pOk858iXDwY4SpNjboBFj5Jc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1630,18 +1630,18 @@
 			atNxZiHVjnd+3lBeiu9oG851YKMLWz31iJ8HhSqzNck=
 			</data>
 		</dict>
-		<key>PincruxTermsViewController.nib/objects-13.0+.nib</key>
+		<key>PincruxTermsView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0VZABpOgzFeVv97RY4OKhobBF3bLZ/apHPUHJ0DQmQc=
+			iqoAZOAXG7PuFRQIb1oKBpzsStEllG3spsfJrdZE1X4=
 			</data>
 		</dict>
-		<key>PincruxTermsViewController.nib/runtime.nib</key>
+		<key>PincruxTermsView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Rb+mUDKkCn5mAYeU4BR6iPykm+zqVQTVgO1MBamB7c=
+			1tOoU/hZQQn/n4fcfa/gx3FEo9Wxjey376MPlht0MFs=
 			</data>
 		</dict>
 		<key>PincruxTextPopupView.nib</key>
