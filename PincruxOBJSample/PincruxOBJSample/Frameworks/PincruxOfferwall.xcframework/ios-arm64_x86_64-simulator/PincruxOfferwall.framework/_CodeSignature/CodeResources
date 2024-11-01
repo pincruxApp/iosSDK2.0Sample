@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		T4pwhJ+EPkRElolSAZ/s4eCpB/s=
+		GkAwe9Xu1s4bQgOr6ihkc8iIuRM=
 		</data>
 		<key>BasicNavigationView.nib</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fi+W+WhZQfemluSJpp25yKAoI+Q=
+		R0Z9YSgcJ+0EY7KcHacz+9AYiCY=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DjVCIX6itBqFaMDAZhlixWXKfC8=
+		MeSXLTbnWPlbgH1VfNfmJ+a5K10=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -302,11 +302,11 @@
 		</data>
 		<key>PincruxImageBannerDefault.nib/objects-13.0+.nib</key>
 		<data>
-		TIOjZQnWIJ7GdWzLgV4cOnRDSA0=
+		unxgNNL0Q7TUcn957mUSOS632us=
 		</data>
 		<key>PincruxImageBannerDefault.nib/runtime.nib</key>
 		<data>
-		6uoBSTI5ot7Ski4HPBht1Y4dXwA=
+		pryZyq0Cv/KRC6+LSjJNUtDfDe0=
 		</data>
 		<key>PincruxLeftCloseNavigationView.nib</key>
 		<data>
@@ -498,23 +498,15 @@
 		</data>
 		<key>PincruxTableViewCellPremium.nib/objects-13.0+.nib</key>
 		<data>
-		4DkI4iAtYC2XV/5YItIJdhIHzKY=
+		ph7xS8EZN3L8w7RYLLI9506sdu8=
 		</data>
 		<key>PincruxTableViewCellPremium.nib/runtime.nib</key>
 		<data>
-		tPoZE9n5kaHMR5ZncZS4O2/rTgs=
+		1HJy67nQgE09PQi1bqwM3mxTpTo=
 		</data>
 		<key>PincruxTableViewCellPremiumBackup.nib</key>
 		<data>
 		gC7LoWWP7wAXbNUiYSI+ChgdU7k=
-		</data>
-		<key>PincruxTableViewCellSimpleList2.nib/objects-13.0+.nib</key>
-		<data>
-		9QbN2cJu75Ru+HBYECBAz2/cHIw=
-		</data>
-		<key>PincruxTableViewCellSimpleList2.nib/runtime.nib</key>
-		<data>
-		bu66U3fXaRSChLaIZ7b6QpkhK7U=
 		</data>
 		<key>PincruxTableViewCellThessenBarPremium.nib/objects-13.0+.nib</key>
 		<data>
@@ -808,7 +800,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A/W+cjK5FSlSj61D6Nm8Zlg14oEOyJ3vqPK183uB5q8=
+			zSx6WBP7hdxK44nFGb6Y9Ggt+B2KkLdh7p8eHIJFsAk=
 			</data>
 		</dict>
 		<key>BasicNavigationView.nib</key>
@@ -864,7 +856,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KkLVDWhkwrgFPn56z7bPr8UUk+B4pX4Sr/KciPfIT34=
+			LSV6+qnhLZy/Se08w9Jtu63weex4eAgEQURrDX/b164=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -885,7 +877,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DThH9RLCzdDz8xqoZx5dD/i01wVG3YRC0gpf0boklJE=
+			K7ev3ETe0/qzMMUrSw0giMDg03JIMtTeueqaj8KLHlg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1319,14 +1311,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c62bkRX0W3TSjtm68hM6mqy/PpP+1IpP6lJX++aj6Sw=
+			54PGfciDb4qd3G+dBv6YNlDpJOGICc9dWkGmoTKHnJc=
 			</data>
 		</dict>
 		<key>PincruxImageBannerDefault.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RsQ0D3aX/CHzLAlzCwzV9Lwn/HunQ+7HmIr4kWvxeP8=
+			SZVxaYxRA7iMh9v0yF5FfhZsg5pgkQFZrx5YQP03Ho8=
 			</data>
 		</dict>
 		<key>PincruxLeftCloseNavigationView.nib</key>
@@ -1662,14 +1654,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dmRpHk6ZmbHFL7vbQFGJY6s0WOPE/WbrAmk479JNvWc=
+			rXFpt99WK9Un3wB5xZmBHHxi2zQe5pMNSHFh95RO4VQ=
 			</data>
 		</dict>
 		<key>PincruxTableViewCellPremium.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJ0xhr6oOIU7PIAKcxOLdEM422M3rTjkdQL2jesrtfQ=
+			s4VbmLnNTCHn9Oxyni410kVeaIPb7UAJGBYNP7rC3BI=
 			</data>
 		</dict>
 		<key>PincruxTableViewCellPremiumBackup.nib</key>
@@ -1677,20 +1669,6 @@
 			<key>hash2</key>
 			<data>
 			Gd26eU8e/PfgBw2keACesmwOi2sX77QMpfZb4PykTok=
-			</data>
-		</dict>
-		<key>PincruxTableViewCellSimpleList2.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YfttP7DvHuuKmmEf1KxB1/rUasRyhSrG14+8zB/DQbc=
-			</data>
-		</dict>
-		<key>PincruxTableViewCellSimpleList2.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sQkaC0FRJ5zudpUvr/KxhjheQHLmmFtsmZkF0FyoPVY=
 			</data>
 		</dict>
 		<key>PincruxTableViewCellThessenBarPremium.nib/objects-13.0+.nib</key>
