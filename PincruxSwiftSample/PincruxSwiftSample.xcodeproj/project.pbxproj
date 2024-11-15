@@ -17,8 +17,8 @@
 		30960A08288E15060013D140 /* ViewTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30960A07288E15060013D140 /* ViewTypeViewController.swift */; };
 		631E404D2947018100BCC696 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E404C2947018000BCC696 /* AdSupport.framework */; };
 		631E404F2947018600BCC696 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E404E2947018600BCC696 /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A7107E2B2CD4CD7300DB3F5C /* PincruxOfferwall.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7107E2A2CD4CD7300DB3F5C /* PincruxOfferwall.xcframework */; };
-		A7107E2C2CD4CD7300DB3F5C /* PincruxOfferwall.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7107E2A2CD4CD7300DB3F5C /* PincruxOfferwall.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A7F949052CE734BF00D4FEAD /* PincruxOfferwall.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F949042CE734BF00D4FEAD /* PincruxOfferwall.xcframework */; };
+		A7F949062CE734BF00D4FEAD /* PincruxOfferwall.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7F949042CE734BF00D4FEAD /* PincruxOfferwall.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A7107E2C2CD4CD7300DB3F5C /* PincruxOfferwall.xcframework in Embed Frameworks */,
+				A7F949062CE734BF00D4FEAD /* PincruxOfferwall.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,7 +48,7 @@
 		30960A07288E15060013D140 /* ViewTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTypeViewController.swift; sourceTree = "<group>"; };
 		631E404C2947018000BCC696 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		631E404E2947018600BCC696 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
-		A7107E2A2CD4CD7300DB3F5C /* PincruxOfferwall.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PincruxOfferwall.xcframework; path = PincruxSwiftSample/Frameworks/PincruxOfferwall.xcframework; sourceTree = "<group>"; };
+		A7F949042CE734BF00D4FEAD /* PincruxOfferwall.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PincruxOfferwall.xcframework; path = PincruxSwiftSample/Frameworks/PincruxOfferwall.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			files = (
 				631E404F2947018600BCC696 /* AppTrackingTransparency.framework in Frameworks */,
 				631E404D2947018100BCC696 /* AdSupport.framework in Frameworks */,
-				A7107E2B2CD4CD7300DB3F5C /* PincruxOfferwall.xcframework in Frameworks */,
+				A7F949052CE734BF00D4FEAD /* PincruxOfferwall.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		30960A02288AA27D0013D140 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7107E2A2CD4CD7300DB3F5C /* PincruxOfferwall.xcframework */,
+				A7F949042CE734BF00D4FEAD /* PincruxOfferwall.xcframework */,
 				631E404E2947018600BCC696 /* AppTrackingTransparency.framework */,
 				631E404C2947018000BCC696 /* AdSupport.framework */,
 			);
