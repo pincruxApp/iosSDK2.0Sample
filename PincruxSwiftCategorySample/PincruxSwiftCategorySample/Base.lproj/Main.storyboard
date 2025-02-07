@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uGc-aE-EHj">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="NKV-8I-5pM">
+            <objects>
+                <navigationController id="uGc-aE-EHj" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jdH-d0-Wti">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7dA-vN-qAQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I4j-69-fH5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-908" y="-27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PincruxSwiftCategorySample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zLm-fI-kcZ" userLabel="Finance View">
+                                <rect key="frame" x="96.666666666666686" y="194" width="200" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="금융 적립" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qin-Ma-jEo" userLabel="Finance Title Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2Z-xA-qvS" userLabel="Finance Point Label">
+                                        <rect key="frame" x="0.0" y="40" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemFillColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="MFv-mL-Oec"/>
+                                    <constraint firstItem="V2Z-xA-qvS" firstAttribute="height" secondItem="qin-Ma-jEo" secondAttribute="height" id="b83-X9-45X"/>
+                                    <constraint firstAttribute="height" constant="80" id="dfM-cY-5zY"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g20-wJ-KrA" userLabel="CPA View">
+                                <rect key="frame" x="96.666666666666686" y="290" width="200" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="참여 적립" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bB-cW-WFj" userLabel="CPA Title Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFf-lR-Pmo" userLabel="CPA Point Label">
+                                        <rect key="frame" x="0.0" y="40" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemFillColor"/>
+                                <constraints>
+                                    <constraint firstItem="TFf-lR-Pmo" firstAttribute="height" secondItem="0bB-cW-WFj" secondAttribute="height" id="n5x-IS-Bsi"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vhP-32-l3K" userLabel="Social View">
+                                <rect key="frame" x="96.666666666666686" y="386" width="200" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="구독 / 팔로우 적립" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Se8-fm-RHV" userLabel="Social Title Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNM-Vk-rlT" userLabel="Social Point Label">
+                                        <rect key="frame" x="0.0" y="40" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemFillColor"/>
+                                <constraints>
+                                    <constraint firstItem="aNM-Vk-rlT" firstAttribute="height" secondItem="Se8-fm-RHV" secondAttribute="height" id="zrA-cR-xZf"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Cmm-2a-nv0" userLabel="CPS View">
+                                <rect key="frame" x="96.666666666666686" y="482" width="200" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="구매 적립" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXT-uz-XkQ" userLabel="CPS Title Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3c-Ij-OjK" userLabel="CPS Point Label">
+                                        <rect key="frame" x="0.0" y="40" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemFillColor"/>
+                                <constraints>
+                                    <constraint firstItem="L3c-Ij-OjK" firstAttribute="height" secondItem="PXT-uz-XkQ" secondAttribute="height" id="HEP-T7-n9Y"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsX-n5-Pcz" userLabel="Finance Button">
+                                <rect key="frame" x="96.666666666666686" y="194" width="200" height="80"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="financeButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kcn-yE-zKg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fe-0p-vmg" userLabel="CPA Button">
+                                <rect key="frame" x="96.666666666666686" y="290" width="200" height="80"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="cpaButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u3W-Ul-CUb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6M-az-b5c" userLabel="Social Button">
+                                <rect key="frame" x="96.666666666666686" y="386" width="200" height="80"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="socialButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fCI-OJ-vJ2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvt-A4-Agt" userLabel="CPS Button">
+                                <rect key="frame" x="96.666666666666686" y="482" width="200" height="80"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="cpsButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qqi-hP-WmU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="S6M-az-b5c" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2xe-1Z-PRn"/>
+                            <constraint firstItem="vhP-32-l3K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3xX-I0-nxe"/>
+                            <constraint firstItem="vhP-32-l3K" firstAttribute="top" secondItem="g20-wJ-KrA" secondAttribute="bottom" constant="16" id="43B-sa-Hfp"/>
+                            <constraint firstItem="Vvt-A4-Agt" firstAttribute="bottom" secondItem="Cmm-2a-nv0" secondAttribute="bottom" id="71f-YL-Myc"/>
+                            <constraint firstItem="vhP-32-l3K" firstAttribute="trailingMargin" secondItem="S6M-az-b5c" secondAttribute="trailing" id="7JT-7H-mVJ"/>
+                            <constraint firstItem="Vvt-A4-Agt" firstAttribute="leading" secondItem="Cmm-2a-nv0" secondAttribute="leading" id="7KR-UP-Mum"/>
+                            <constraint firstItem="g20-wJ-KrA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7ge-eR-qQS"/>
+                            <constraint firstItem="VsX-n5-Pcz" firstAttribute="leading" secondItem="zLm-fI-kcZ" secondAttribute="leading" id="Cvf-0y-o5L"/>
+                            <constraint firstItem="2fe-0p-vmg" firstAttribute="top" secondItem="g20-wJ-KrA" secondAttribute="top" id="JHf-qq-VJU"/>
+                            <constraint firstItem="2fe-0p-vmg" firstAttribute="leading" secondItem="g20-wJ-KrA" secondAttribute="leading" id="Kma-y9-aHN"/>
+                            <constraint firstItem="vhP-32-l3K" firstAttribute="bottomMargin" secondItem="S6M-az-b5c" secondAttribute="bottom" id="LSD-N4-8fL"/>
+                            <constraint firstItem="Cmm-2a-nv0" firstAttribute="width" secondItem="zLm-fI-kcZ" secondAttribute="width" id="M4R-Ad-kAW"/>
+                            <constraint firstItem="vhP-32-l3K" firstAttribute="height" secondItem="zLm-fI-kcZ" secondAttribute="height" id="R6L-Vc-ULK"/>
+                            <constraint firstItem="g20-wJ-KrA" firstAttribute="top" secondItem="zLm-fI-kcZ" secondAttribute="bottom" constant="16" id="RvH-nE-TYc"/>
+                            <constraint firstItem="Cmm-2a-nv0" firstAttribute="top" secondItem="vhP-32-l3K" secondAttribute="bottom" constant="16" id="UZ8-kn-FHf"/>
+                            <constraint firstItem="Vvt-A4-Agt" firstAttribute="trailing" secondItem="Cmm-2a-nv0" secondAttribute="trailing" id="W0Y-Aw-rOi"/>
+                            <constraint firstItem="zLm-fI-kcZ" firstAttribute="trailing" secondItem="VsX-n5-Pcz" secondAttribute="trailing" id="XUJ-n7-mSQ"/>
+                            <constraint firstItem="S6M-az-b5c" firstAttribute="top" secondItem="vhP-32-l3K" secondAttribute="topMargin" id="Yp6-GB-uv8"/>
+                            <constraint firstItem="Cmm-2a-nv0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dyz-7k-pkP"/>
+                            <constraint firstItem="VsX-n5-Pcz" firstAttribute="top" secondItem="zLm-fI-kcZ" secondAttribute="top" id="iCg-WY-i4e"/>
+                            <constraint firstItem="S6M-az-b5c" firstAttribute="leading" secondItem="vhP-32-l3K" secondAttribute="leadingMargin" id="jo5-8o-0gO"/>
+                            <constraint firstItem="2fe-0p-vmg" firstAttribute="bottom" secondItem="g20-wJ-KrA" secondAttribute="bottom" id="pvI-Ly-Wik"/>
+                            <constraint firstItem="Vvt-A4-Agt" firstAttribute="top" secondItem="Cmm-2a-nv0" secondAttribute="top" id="pvP-Ob-Dv9"/>
+                            <constraint firstItem="Cmm-2a-nv0" firstAttribute="height" secondItem="zLm-fI-kcZ" secondAttribute="height" id="py5-SK-NK9"/>
+                            <constraint firstItem="g20-wJ-KrA" firstAttribute="width" secondItem="zLm-fI-kcZ" secondAttribute="width" id="tTc-XV-0Ki"/>
+                            <constraint firstItem="g20-wJ-KrA" firstAttribute="height" secondItem="zLm-fI-kcZ" secondAttribute="height" id="vWE-3N-hgH"/>
+                            <constraint firstItem="zLm-fI-kcZ" firstAttribute="bottom" secondItem="VsX-n5-Pcz" secondAttribute="bottom" id="vdI-Qv-qxw"/>
+                            <constraint firstItem="g20-wJ-KrA" firstAttribute="trailing" secondItem="2fe-0p-vmg" secondAttribute="trailing" id="wDp-t6-tLH"/>
+                            <constraint firstItem="zLm-fI-kcZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yLV-ti-Fhv"/>
+                            <constraint firstItem="vhP-32-l3K" firstAttribute="width" secondItem="zLm-fI-kcZ" secondAttribute="width" id="zWl-yV-n9a"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bxG-4J-lCk"/>
+                    <connections>
+                        <outlet property="cpaButton" destination="2fe-0p-vmg" id="Et9-qF-sQg"/>
+                        <outlet property="cpaPointLabel" destination="TFf-lR-Pmo" id="wx4-oW-vnf"/>
+                        <outlet property="cpsButton" destination="Vvt-A4-Agt" id="LkU-l0-o2f"/>
+                        <outlet property="cpsPointLabel" destination="L3c-Ij-OjK" id="msh-Pt-EpB"/>
+                        <outlet property="financeButton" destination="VsX-n5-Pcz" id="EsW-r2-aCB"/>
+                        <outlet property="financePointLabel" destination="V2Z-xA-qvS" id="SIq-Cc-c3a"/>
+                        <outlet property="socialButton" destination="S6M-az-b5c" id="HGX-dN-Rth"/>
+                        <outlet property="socialPointLabel" destination="aNM-Vk-rlT" id="x7q-x8-sVm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-167.17557251908397" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
