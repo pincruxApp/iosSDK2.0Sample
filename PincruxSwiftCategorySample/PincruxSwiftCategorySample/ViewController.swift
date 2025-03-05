@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var cpsButton: UIButton!
     
     var offerwall : PincruxOfferwallSDK?
-    let pubkey = "911872" // TODO: (필수) 핀크럭스에서 발급 받은 매체 고유 키 입력
-    let userkey = "test_user" // TODO: (필수) 매체에서 핀크럭스에게 제공할 유저 고유 키 입력
+    let pubkey = "INSERT_YOUR_PUBKEY" // TODO: (필수) 핀크럭스에서 발급 받은 매체 고유 키 입력
+    let userkey = "INSERT_USER_KEY" // TODO: (필수) 매체에서 핀크럭스에게 제공할 유저 고유 키 입력
     
     override func viewDidLoad() {
         super.viewDidLoad()
