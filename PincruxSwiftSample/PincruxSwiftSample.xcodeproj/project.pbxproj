@@ -17,8 +17,8 @@
 		30960A08288E15060013D140 /* ViewTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30960A07288E15060013D140 /* ViewTypeViewController.swift */; };
 		631E404D2947018100BCC696 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E404C2947018000BCC696 /* AdSupport.framework */; };
 		631E404F2947018600BCC696 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E404E2947018600BCC696 /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A736FF3B2D77E720005EDA50 /* PincruxOfferwall.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A736FF3A2D77E71F005EDA50 /* PincruxOfferwall.xcframework */; };
-		A736FF3C2D77E720005EDA50 /* PincruxOfferwall.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A736FF3A2D77E71F005EDA50 /* PincruxOfferwall.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A73861AA2DD70CF300859538 /* PincruxOfferwall.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73861A92DD70CF300859538 /* PincruxOfferwall.xcframework */; };
+		A73861AB2DD70CF300859538 /* PincruxOfferwall.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A73861A92DD70CF300859538 /* PincruxOfferwall.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A736FF3C2D77E720005EDA50 /* PincruxOfferwall.xcframework in Embed Frameworks */,
+				A73861AB2DD70CF300859538 /* PincruxOfferwall.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,7 +48,7 @@
 		30960A07288E15060013D140 /* ViewTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTypeViewController.swift; sourceTree = "<group>"; };
 		631E404C2947018000BCC696 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		631E404E2947018600BCC696 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
-		A736FF3A2D77E71F005EDA50 /* PincruxOfferwall.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PincruxOfferwall.xcframework; path = PincruxSwiftSample/Frameworks/PincruxOfferwall.xcframework; sourceTree = "<group>"; };
+		A73861A92DD70CF300859538 /* PincruxOfferwall.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PincruxOfferwall.xcframework; path = PincruxSwiftSample/Frameworks/PincruxOfferwall.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			files = (
 				631E404F2947018600BCC696 /* AppTrackingTransparency.framework in Frameworks */,
 				631E404D2947018100BCC696 /* AdSupport.framework in Frameworks */,
-				A736FF3B2D77E720005EDA50 /* PincruxOfferwall.xcframework in Frameworks */,
+				A73861AA2DD70CF300859538 /* PincruxOfferwall.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		30960A02288AA27D0013D140 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A736FF3A2D77E71F005EDA50 /* PincruxOfferwall.xcframework */,
+				A73861A92DD70CF300859538 /* PincruxOfferwall.xcframework */,
 				631E404E2947018600BCC696 /* AppTrackingTransparency.framework */,
 				631E404C2947018000BCC696 /* AdSupport.framework */,
 			);
@@ -350,7 +350,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -387,7 +387,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,7 +397,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

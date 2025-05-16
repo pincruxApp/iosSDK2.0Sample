@@ -30,7 +30,9 @@ class ViewController: UIViewController {
         // 현재 적립 가능한 포인트 호출
         initOfferwall()
         offerwall?.pointDelegate = self
-        offerwall?.getAdPoint(pubkey)
+        Task {
+            await offerwall?.getAdPoint(pubkey)
+        }
     }
 
     @IBAction func financeButtonClick(_ sender: Any) {
@@ -55,7 +57,7 @@ class ViewController: UIViewController {
     
     func initOfferwall() {
         self.offerwall = PincruxOfferwallSDK.initWithPubkeyAndUsrkey(pubkey, userkey)
-        self.offerwall?.setDarkMode(.LIGHT_ONLY)
+        self.offerwall?.setDarkMode(.AUTO)
         self.offerwall?.setAdDetail(true)
         self.offerwall?.setEnableScrollTopButton(true)
         self.offerwall?.setEnableTab(true)
@@ -68,7 +70,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: OfferwallPointDelegate {
-    func getAdPoint(_ point: OfferwallPointItems) {
+    func getAdPoint(_ point: OfferwallPointItems) async {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = .decimal
 

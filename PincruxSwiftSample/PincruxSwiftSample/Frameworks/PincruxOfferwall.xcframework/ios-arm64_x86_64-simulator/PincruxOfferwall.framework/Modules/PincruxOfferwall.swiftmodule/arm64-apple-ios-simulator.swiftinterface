@@ -1,18 +1,136 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PincruxOfferwall
+// swift-compiler-version: Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name PincruxOfferwall
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFAudio
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
+import DeveloperToolsSupport
 import Foundation
 import Photos
 import PhotosUI
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum OfferwallType : Swift.Int {
+  case BAR_TYPE, BAR_PREMIUM_TYPE, PREMIUM_TYPE
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DarkMode : Swift.Int {
+  case AUTO, LIGHT_ONLY, DARK_ONLY
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ViewControllerType : Swift.Int {
+  case NavigationPush, Modal, ViewType
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum OfferwallCategory : Swift.Int {
+  case None, Finance, CPA, Social, CPS
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_Concurrency.MainActor @objc public protocol OfferwallViewTypeDelegate {
+  @objc @_Concurrency.MainActor func offerwallInitSuccess()
+  @objc @_Concurrency.MainActor func offerwallInitFailed(_ errCode: Swift.Int)
+  @objc @_Concurrency.MainActor func offerwallReceived(_ offerwallView: UIKit.UIView)
+  @objc @_Concurrency.MainActor func offerwallAction()
+  @objc @_Concurrency.MainActor func offerwallReqClose()
+}
+@_Concurrency.MainActor @objc public protocol OfferwallPointDelegate {
+  @objc @_Concurrency.MainActor func getAdPoint(_ point: PincruxOfferwall.OfferwallPointItems) async
+}
+@objc public class OfferwallPointItems : ObjectiveC.NSObject {
+  @objc public init(_ status: Swift.String, _ pubkey: Swift.Int, _ ad_coin1: Swift.Int, _ ad_coin2: Swift.Int, _ ad_coin3: Swift.Int, _ ad_coin4: Swift.Int, _ nowTime: Swift.Double)
+  @objc public var financeCoin: Swift.Int {
+    @objc get
+  }
+  @objc public var cpaCoin: Swift.Int {
+    @objc get
+  }
+  @objc public var socialCoin: Swift.Int {
+    @objc get
+  }
+  @objc public var cpsCoin: Swift.Int {
+    @objc get
+  }
+  @objc deinit
+}
+public protocol PincruxTabMenuOptions {
+  var font: UIKit.UIFont { get }
+  var menuItemSize: PincruxOfferwall.TabMenuItemSize { get }
+  var menuItemMargin: CoreFoundation.CGFloat { get }
+  var menuTitleColor: UIKit.UIColor { get }
+  var menuTitleSelectedColor: UIKit.UIColor { get set }
+  var menuUnderLine: PincruxOfferwall.TabMenuUnderLineSet { get }
+  var tabMenuBackgroundColor: UIKit.UIColor { get }
+  var tabMenuContentInset: UIKit.UIEdgeInsets { get }
+}
+extension PincruxOfferwall.PincruxTabMenuOptions {
+  public var tabMenuContentInset: UIKit.UIEdgeInsets {
+    get
+  }
+}
+public enum TabMenuItemSize {
+  case fixed(width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat)
+  case sizeToFit(minWidth: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat)
+}
+extension PincruxOfferwall.TabMenuItemSize {
+  public var width: CoreFoundation.CGFloat {
+    get
+  }
+  public var height: CoreFoundation.CGFloat {
+    get
+  }
+}
+public enum TabMenuUnderLineSet {
+  case underline(barColor: UIKit.UIColor, height: CoreFoundation.CGFloat)
+}
+public struct DefaultTabMenuOption : PincruxOfferwall.PincruxTabMenuOptions {
+  public var menuItemSize: PincruxOfferwall.TabMenuItemSize {
+    get
+  }
+  public var menuItemMargin: CoreFoundation.CGFloat {
+    get
+  }
+  public var menuTitleColor: UIKit.UIColor {
+    get
+  }
+  public var menuTitleSelectedColor: UIKit.UIColor {
+    get
+    set
+  }
+  public var menuUnderLine: PincruxOfferwall.TabMenuUnderLineSet {
+    get
+  }
+  public var font: UIKit.UIFont {
+    get
+  }
+  public var tabMenuBackgroundColor: UIKit.UIColor {
+    get
+  }
+  public init()
+}
 public enum PopupObserve {
   case Filter, Terms, SMS, none
   public static func == (a: PincruxOfferwall.PopupObserve, b: PincruxOfferwall.PopupObserve) -> Swift.Bool
@@ -40,119 +158,6 @@ extension PincruxOfferwall.TicketCustomPopupOptions {
     get
   }
 }
-@objc public enum OfferwallType : Swift.Int {
-  case BAR_TYPE, BAR_PREMIUM_TYPE, PREMIUM_TYPE
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum DarkMode : Swift.Int {
-  case AUTO, LIGHT_ONLY, DARK_ONLY
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum ViewControllerType : Swift.Int {
-  case NavigationPush, Modal, ViewType
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum OfferwallCategory : Swift.Int {
-  case Finance, CPA, Social, CPS, None
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public protocol OfferwallViewTypeDelegate {
-  @objc func offerwallInitSuccess()
-  @objc func offerwallInitFailed(_ errCode: Swift.Int)
-  @objc func offerwallReceived(_ offerwallView: UIKit.UIView)
-  @objc func offerwallAction()
-  @objc func offerwallReqClose()
-}
-@objc public protocol OfferwallPointDelegate {
-  @objc func getAdPoint(_ point: PincruxOfferwall.OfferwallPointItems)
-}
-@objc public class OfferwallPointItems : ObjectiveC.NSObject {
-  @objc public init(_ status: Swift.String, _ pubkey: Swift.Int, _ ad_coin1: Swift.Int, _ ad_coin2: Swift.Int, _ ad_coin3: Swift.Int, _ ad_coin4: Swift.Int, _ nowTime: Swift.Double)
-  @objc public var financeCoin: Swift.Int {
-    @objc get
-  }
-  @objc public var cpaCoin: Swift.Int {
-    @objc get
-  }
-  @objc public var socialCoin: Swift.Int {
-    @objc get
-  }
-  @objc public var cpsCoin: Swift.Int {
-    @objc get
-  }
-  @objc deinit
-}
-public protocol PincruxTabMenuOptions {
-  var font: UIKit.UIFont { get }
-  var menuItemSize: PincruxOfferwall.TabMenuItemSize { get }
-  var menuItemMargin: CoreGraphics.CGFloat { get }
-  var menuTitleColor: UIKit.UIColor { get }
-  var menuTitleSelectedColor: UIKit.UIColor { get set }
-  var menuUnderLine: PincruxOfferwall.TabMenuUnderLineSet { get }
-  var tabMenuBackgroundColor: UIKit.UIColor { get }
-  var tabMenuContentInset: UIKit.UIEdgeInsets { get }
-}
-extension PincruxOfferwall.PincruxTabMenuOptions {
-  public var tabMenuContentInset: UIKit.UIEdgeInsets {
-    get
-  }
-}
-public enum TabMenuItemSize {
-  case fixed(width: CoreGraphics.CGFloat, height: CoreGraphics.CGFloat)
-  case sizeToFit(minWidth: CoreGraphics.CGFloat, height: CoreGraphics.CGFloat)
-}
-extension PincruxOfferwall.TabMenuItemSize {
-  public var width: CoreGraphics.CGFloat {
-    get
-  }
-  public var height: CoreGraphics.CGFloat {
-    get
-  }
-}
-public enum TabMenuUnderLineSet {
-  case underline(barColor: UIKit.UIColor, height: CoreGraphics.CGFloat)
-}
-public struct DefaultTabMenuOption : PincruxOfferwall.PincruxTabMenuOptions {
-  public var menuItemSize: PincruxOfferwall.TabMenuItemSize {
-    get
-  }
-  public var menuItemMargin: CoreGraphics.CGFloat {
-    get
-  }
-  public var menuTitleColor: UIKit.UIColor {
-    get
-  }
-  public var menuTitleSelectedColor: UIKit.UIColor {
-    get
-    set
-  }
-  public var menuUnderLine: PincruxOfferwall.TabMenuUnderLineSet {
-    get
-  }
-  public var font: UIKit.UIFont {
-    get
-  }
-  public var tabMenuBackgroundColor: UIKit.UIColor {
-    get
-  }
-  public init()
-}
 public struct Random {
   public static func generate(_ upperBound: Swift.Int) -> Swift.Int
 }
@@ -163,50 +168,46 @@ public struct Random {
   final public class func randomText(_ length: Swift.Int, justLowerCase: Swift.Bool = false, whitespace: Swift.Bool = false) -> Swift.String
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PincruxOfferwallSDK : ObjectiveC.NSObject {
-  @objc weak public var viewtypeDelegate: PincruxOfferwall.OfferwallViewTypeDelegate?
-  @objc weak public var pointDelegate: PincruxOfferwall.OfferwallPointDelegate?
-  @objc public static func initWithPubkeyAndUsrkey(_ pubkey: Swift.String, _ userkey: Swift.String) -> PincruxOfferwall.PincruxOfferwallSDK
-  @objc public static func shared() -> PincruxOfferwall.PincruxOfferwallSDK
-  @objc public func startOfferwall(vc: UIKit.UIViewController)
-  @objc public func startOfferwallDetailVC(vc: UIKit.UIViewController, appKey: Swift.String)
-  @objc public func startOfferwallContactVC(vc: UIKit.UIViewController, isTitleCenter: Swift.Bool = false)
-  @objc public func setOfferwallType(_ type: PincruxOfferwall.OfferwallType)
-  @objc public func setViewControllerType(_ type: PincruxOfferwall.ViewControllerType)
-  @objc public func setEnableTab(_ isTab: Swift.Bool)
-  @objc public func setDisableCPS(_ disableCPS: Swift.Bool)
-  @objc public func setOfferwallTitle(_ title: Swift.String)
-  @objc public func setThemeColor(_ colorHex: Swift.String)
-  @objc public func setEnableScrollTopButton(_ isTopBtt: Swift.Bool)
-  @objc public func setAdDetail(_ adDetail: Swift.Bool)
-  @objc public func setUnityOfferwall(_ unity: Swift.Bool)
-  @objc public func setOrientationLandscape(_ isLandscape: Swift.Bool)
-  @objc public func setDarkMode(_ currentDarkMode: PincruxOfferwall.DarkMode)
-  @objc public func enterForeground()
-  @objc public func setOfferwallCategory(_ category: PincruxOfferwall.OfferwallCategory)
-  @objc public func setUseSafeArea(_ useSafeArea: Swift.Bool)
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @objc public class PincruxOfferwallSDK : ObjectiveC.NSObject {
+  @objc @_Concurrency.MainActor weak public var viewtypeDelegate: (any PincruxOfferwall.OfferwallViewTypeDelegate)?
+  @objc @_Concurrency.MainActor weak public var pointDelegate: (any PincruxOfferwall.OfferwallPointDelegate)?
+  @objc @_Concurrency.MainActor public static func initWithPubkeyAndUsrkey(_ pubkey: Swift.String, _ userkey: Swift.String) -> PincruxOfferwall.PincruxOfferwallSDK
+  @objc @_Concurrency.MainActor public static func shared() -> PincruxOfferwall.PincruxOfferwallSDK
+  @_Concurrency.MainActor @objc public func startOfferwall(vc: UIKit.UIViewController)
+  @objc @_Concurrency.MainActor public func startOfferwallDetailVC(vc: UIKit.UIViewController, appKey: Swift.String)
+  @objc @_Concurrency.MainActor public func startOfferwallContactVC(vc: UIKit.UIViewController, isTitleCenter: Swift.Bool = false)
+  @objc @_Concurrency.MainActor public func setOfferwallType(_ type: PincruxOfferwall.OfferwallType)
+  @objc @_Concurrency.MainActor public func setViewControllerType(_ type: PincruxOfferwall.ViewControllerType)
+  @objc @_Concurrency.MainActor public func setEnableTab(_ isTab: Swift.Bool)
+  @objc @_Concurrency.MainActor public func setDisableCPS(_ disableCPS: Swift.Bool)
+  @objc @_Concurrency.MainActor public func setOfferwallTitle(_ title: Swift.String)
+  @objc @_Concurrency.MainActor public func setThemeColor(_ colorHex: Swift.String)
+  @objc @_Concurrency.MainActor public func setEnableScrollTopButton(_ isTopBtt: Swift.Bool)
+  @objc @_Concurrency.MainActor public func setAdDetail(_ adDetail: Swift.Bool)
+  @objc @_Concurrency.MainActor public func setUnityOfferwall(_ unity: Swift.Bool)
+  @objc @_Concurrency.MainActor public func setOrientationLandscape(_ isLandscape: Swift.Bool)
+  @objc @_Concurrency.MainActor public func setDarkMode(_ currentDarkMode: PincruxOfferwall.DarkMode)
+  @_Concurrency.MainActor @objc public func enterForeground()
+  @objc @_Concurrency.MainActor public func setOfferwallCategory(_ category: PincruxOfferwall.OfferwallCategory)
+  @objc @_Concurrency.MainActor public func setUseSafeArea(_ useSafeArea: Swift.Bool)
   @available(*, deprecated)
-  @objc public func getAdPoint()
-  @objc public func getAdPoint(_ pubkey: Swift.String)
-  @objc public func destroyView()
+  @_Concurrency.MainActor @objc public func getAdPoint() async
+  @_Concurrency.MainActor @objc public func getAdPoint(_ pubkey: Swift.String) async
+  @objc @_Concurrency.MainActor public func destroyView()
   @objc deinit
 }
 extension PincruxOfferwall.PincruxOfferwallSDK : PincruxOfferwall.OfferwallViewTypeDelegate {
-  @objc dynamic public func offerwallInitSuccess()
-  @objc dynamic public func offerwallInitFailed(_ errCode: Swift.Int)
-  @objc dynamic public func offerwallReceived(_ offerwallView: UIKit.UIView)
-  @objc dynamic public func offerwallAction()
-  @objc dynamic public func offerwallReqClose()
+  @_Concurrency.MainActor @objc dynamic public func offerwallInitSuccess()
+  @_Concurrency.MainActor @objc dynamic public func offerwallInitFailed(_ errCode: Swift.Int)
+  @_Concurrency.MainActor @objc dynamic public func offerwallReceived(_ offerwallView: UIKit.UIView)
+  @_Concurrency.MainActor @objc dynamic public func offerwallAction()
+  @_Concurrency.MainActor @objc dynamic public func offerwallReqClose()
 }
 extension UIKit.UINavigationController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @_Concurrency.MainActor(unsafe) @objc get
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
   }
 }
-extension PincruxOfferwall.PopupObserve : Swift.Equatable {}
-extension PincruxOfferwall.PopupObserve : Swift.Hashable {}
-extension PincruxOfferwall.PopupStyle : Swift.Equatable {}
-extension PincruxOfferwall.PopupStyle : Swift.Hashable {}
 extension PincruxOfferwall.OfferwallType : Swift.Equatable {}
 extension PincruxOfferwall.OfferwallType : Swift.Hashable {}
 extension PincruxOfferwall.OfferwallType : Swift.RawRepresentable {}
@@ -219,3 +220,8 @@ extension PincruxOfferwall.ViewControllerType : Swift.RawRepresentable {}
 extension PincruxOfferwall.OfferwallCategory : Swift.Equatable {}
 extension PincruxOfferwall.OfferwallCategory : Swift.Hashable {}
 extension PincruxOfferwall.OfferwallCategory : Swift.RawRepresentable {}
+extension PincruxOfferwall.PopupObserve : Swift.Equatable {}
+extension PincruxOfferwall.PopupObserve : Swift.Hashable {}
+extension PincruxOfferwall.PopupStyle : Swift.Equatable {}
+extension PincruxOfferwall.PopupStyle : Swift.Hashable {}
+extension PincruxOfferwall.PincruxOfferwallSDK : Swift.Sendable {}
