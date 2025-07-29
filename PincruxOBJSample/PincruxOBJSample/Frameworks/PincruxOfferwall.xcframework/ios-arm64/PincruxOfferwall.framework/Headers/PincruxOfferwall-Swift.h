@@ -385,6 +385,7 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)getAdPointWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler SWIFT_DEPRECATED;
 - (void)getAdPoint:(NSString * _Nonnull)pubkey completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)destroyView;
+- (void)closeOfferwall;
 @end
 
 @interface PincruxOfferwallSDK (SWIFT_EXTENSION(PincruxOfferwall)) <OfferwallViewTypeDelegate>

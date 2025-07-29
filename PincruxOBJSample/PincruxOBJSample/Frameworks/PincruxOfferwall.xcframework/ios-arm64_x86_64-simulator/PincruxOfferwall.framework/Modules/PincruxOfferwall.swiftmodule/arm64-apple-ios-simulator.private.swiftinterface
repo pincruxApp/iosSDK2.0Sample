@@ -194,6 +194,7 @@ public struct Random {
   @_Concurrency.MainActor @objc public func getAdPoint() async
   @_Concurrency.MainActor @objc public func getAdPoint(_ pubkey: Swift.String) async
   @objc @_Concurrency.MainActor public func destroyView()
+  @objc @_Concurrency.MainActor public func closeOfferwall()
   @objc deinit
 }
 extension PincruxOfferwall.PincruxOfferwallSDK : PincruxOfferwall.OfferwallViewTypeDelegate {
