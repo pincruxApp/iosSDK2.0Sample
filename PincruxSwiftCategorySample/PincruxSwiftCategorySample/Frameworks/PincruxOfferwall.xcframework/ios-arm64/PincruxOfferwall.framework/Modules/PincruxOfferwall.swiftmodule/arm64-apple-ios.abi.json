@@ -7597,14 +7597,14 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/PincruxTableViewBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 8215,
+      "offset": 8367,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/PincruxTableViewBase.swift",
       "kind": "StringLiteral",
-      "offset": 27524,
+      "offset": 27676,
       "length": 2,
       "value": "\"\""
     },
@@ -9249,7 +9249,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/detail\/PincruxDetailViewControllerBase.swift",
       "kind": "StringLiteral",
-      "offset": 9207,
+      "offset": 9112,
       "length": 2,
       "value": "\"\""
     },
@@ -10012,7 +10012,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/PincruxCollectionViewControllerBase.swift",
       "kind": "Array",
-      "offset": 28423,
+      "offset": 28441,
       "length": 2,
       "value": "[]"
     },
@@ -11090,21 +11090,21 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/PincruxOfferwallSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5428,
+      "offset": 5451,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/PincruxOfferwallSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11168,
+      "offset": 11191,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/PincruxOfferwallSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11191,
+      "offset": 11214,
       "length": 2,
       "value": "\"\""
     },
