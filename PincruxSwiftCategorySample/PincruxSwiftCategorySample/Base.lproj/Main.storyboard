@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uGc-aE-EHj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uGc-aE-EHj">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <navigationController id="uGc-aE-EHj" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jdH-d0-Wti">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -119,6 +119,27 @@
                                     <constraint firstItem="L3c-Ij-OjK" firstAttribute="height" secondItem="PXT-uz-XkQ" secondAttribute="height" id="HEP-T7-n9Y"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MBW-KZ-LLm" userLabel="Game View">
+                                <rect key="frame" x="96.666666666666686" y="578" width="200" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="게임 적립" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Can-XL-b9J" userLabel="Game Title Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNu-T8-RSQ" userLabel="Game Point Label">
+                                        <rect key="frame" x="0.0" y="40" width="200" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemFillColor"/>
+                                <constraints>
+                                    <constraint firstItem="JNu-T8-RSQ" firstAttribute="height" secondItem="Can-XL-b9J" secondAttribute="height" id="4Mu-wL-1Dx"/>
+                                </constraints>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsX-n5-Pcz" userLabel="Finance Button">
                                 <rect key="frame" x="96.666666666666686" y="194" width="200" height="80"/>
                                 <state key="normal" title="Button"/>
@@ -151,6 +172,14 @@
                                     <action selector="cpsButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qqi-hP-WmU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BC6-Il-rYf" userLabel="Game Button">
+                                <rect key="frame" x="96.666666666666686" y="578" width="200" height="80"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="gameButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mji-bs-FYO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -163,19 +192,27 @@
                             <constraint firstItem="Vvt-A4-Agt" firstAttribute="leading" secondItem="Cmm-2a-nv0" secondAttribute="leading" id="7KR-UP-Mum"/>
                             <constraint firstItem="g20-wJ-KrA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7ge-eR-qQS"/>
                             <constraint firstItem="VsX-n5-Pcz" firstAttribute="leading" secondItem="zLm-fI-kcZ" secondAttribute="leading" id="Cvf-0y-o5L"/>
+                            <constraint firstItem="BC6-Il-rYf" firstAttribute="leading" secondItem="MBW-KZ-LLm" secondAttribute="leading" id="D2g-MU-EeJ"/>
                             <constraint firstItem="2fe-0p-vmg" firstAttribute="top" secondItem="g20-wJ-KrA" secondAttribute="top" id="JHf-qq-VJU"/>
+                            <constraint firstItem="BC6-Il-rYf" firstAttribute="top" secondItem="MBW-KZ-LLm" secondAttribute="top" id="JmN-XN-Ryv"/>
                             <constraint firstItem="2fe-0p-vmg" firstAttribute="leading" secondItem="g20-wJ-KrA" secondAttribute="leading" id="Kma-y9-aHN"/>
                             <constraint firstItem="vhP-32-l3K" firstAttribute="bottomMargin" secondItem="S6M-az-b5c" secondAttribute="bottom" id="LSD-N4-8fL"/>
                             <constraint firstItem="Cmm-2a-nv0" firstAttribute="width" secondItem="zLm-fI-kcZ" secondAttribute="width" id="M4R-Ad-kAW"/>
                             <constraint firstItem="vhP-32-l3K" firstAttribute="height" secondItem="zLm-fI-kcZ" secondAttribute="height" id="R6L-Vc-ULK"/>
                             <constraint firstItem="g20-wJ-KrA" firstAttribute="top" secondItem="zLm-fI-kcZ" secondAttribute="bottom" constant="16" id="RvH-nE-TYc"/>
                             <constraint firstItem="Cmm-2a-nv0" firstAttribute="top" secondItem="vhP-32-l3K" secondAttribute="bottom" constant="16" id="UZ8-kn-FHf"/>
+                            <constraint firstItem="BC6-Il-rYf" firstAttribute="trailing" secondItem="MBW-KZ-LLm" secondAttribute="trailing" id="V3g-aV-AbM"/>
                             <constraint firstItem="Vvt-A4-Agt" firstAttribute="trailing" secondItem="Cmm-2a-nv0" secondAttribute="trailing" id="W0Y-Aw-rOi"/>
                             <constraint firstItem="zLm-fI-kcZ" firstAttribute="trailing" secondItem="VsX-n5-Pcz" secondAttribute="trailing" id="XUJ-n7-mSQ"/>
                             <constraint firstItem="S6M-az-b5c" firstAttribute="top" secondItem="vhP-32-l3K" secondAttribute="topMargin" id="Yp6-GB-uv8"/>
+                            <constraint firstItem="MBW-KZ-LLm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZBk-jB-cGz"/>
+                            <constraint firstItem="MBW-KZ-LLm" firstAttribute="height" secondItem="zLm-fI-kcZ" secondAttribute="height" id="c7k-Cg-L82"/>
                             <constraint firstItem="Cmm-2a-nv0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dyz-7k-pkP"/>
                             <constraint firstItem="VsX-n5-Pcz" firstAttribute="top" secondItem="zLm-fI-kcZ" secondAttribute="top" id="iCg-WY-i4e"/>
                             <constraint firstItem="S6M-az-b5c" firstAttribute="leading" secondItem="vhP-32-l3K" secondAttribute="leadingMargin" id="jo5-8o-0gO"/>
+                            <constraint firstItem="MBW-KZ-LLm" firstAttribute="width" secondItem="zLm-fI-kcZ" secondAttribute="width" id="ls7-mM-5Eg"/>
+                            <constraint firstItem="MBW-KZ-LLm" firstAttribute="top" secondItem="Cmm-2a-nv0" secondAttribute="bottom" constant="16" id="oNT-0X-294"/>
+                            <constraint firstItem="BC6-Il-rYf" firstAttribute="bottom" secondItem="MBW-KZ-LLm" secondAttribute="bottom" id="oe4-xn-cfw"/>
                             <constraint firstItem="2fe-0p-vmg" firstAttribute="bottom" secondItem="g20-wJ-KrA" secondAttribute="bottom" id="pvI-Ly-Wik"/>
                             <constraint firstItem="Vvt-A4-Agt" firstAttribute="top" secondItem="Cmm-2a-nv0" secondAttribute="top" id="pvP-Ob-Dv9"/>
                             <constraint firstItem="Cmm-2a-nv0" firstAttribute="height" secondItem="zLm-fI-kcZ" secondAttribute="height" id="py5-SK-NK9"/>
@@ -195,6 +232,8 @@
                         <outlet property="cpsPointLabel" destination="L3c-Ij-OjK" id="msh-Pt-EpB"/>
                         <outlet property="financeButton" destination="VsX-n5-Pcz" id="EsW-r2-aCB"/>
                         <outlet property="financePointLabel" destination="V2Z-xA-qvS" id="SIq-Cc-c3a"/>
+                        <outlet property="gameButton" destination="BC6-Il-rYf" id="UFZ-Aq-lyk"/>
+                        <outlet property="gamePointLabel" destination="JNu-T8-RSQ" id="gJs-7z-CFw"/>
                         <outlet property="socialButton" destination="S6M-az-b5c" id="HGX-dN-Rth"/>
                         <outlet property="socialPointLabel" destination="aNM-Vk-rlT" id="x7q-x8-sVm"/>
                     </connections>

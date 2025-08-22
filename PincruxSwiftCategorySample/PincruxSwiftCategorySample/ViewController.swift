@@ -13,11 +13,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var cpaPointLabel: UILabel!
     @IBOutlet weak var socialPointLabel: UILabel!
     @IBOutlet weak var cpsPointLabel: UILabel!
+    @IBOutlet weak var gamePointLabel: UILabel!
     
     @IBOutlet weak var financeButton: UIButton!
     @IBOutlet weak var cpaButton: UIButton!
     @IBOutlet weak var socialButton: UIButton!
     @IBOutlet weak var cpsButton: UIButton!
+    @IBOutlet weak var gameButton: UIButton!
     
     var offerwall : PincruxOfferwallSDK?
     let pubkey = "INSERT_YOUR_PUBKEY" // TODO: (필수) 핀크럭스에서 발급 받은 매체 고유 키 입력
@@ -55,6 +57,11 @@ class ViewController: UIViewController {
         startOfferwall(.CPS)
     }
     
+    @IBAction func gameButtonClick(_ sender: Any) {
+        initOfferwall()
+        startOfferwall(.Game)
+    }
+    
     func initOfferwall() {
         self.offerwall = PincruxOfferwallSDK.initWithPubkeyAndUsrkey(pubkey, userkey)
         self.offerwall?.setDarkMode(.AUTO)
@@ -79,6 +86,7 @@ extension ViewController: OfferwallPointDelegate {
             self.cpaPointLabel.text = "\(numberFormatter.string(for: point.cpaCoin)!)P"
             self.socialPointLabel.text = "\(numberFormatter.string(for: point.socialCoin)!)P"
             self.cpsPointLabel.text = "\(numberFormatter.string(for: point.cpsCoin)!)P"
+            self.gamePointLabel.text = "\(numberFormatter.string(for: point.gameCoin)!)P"
         }
     }
 }

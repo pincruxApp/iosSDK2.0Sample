@@ -43,7 +43,13 @@ import _SwiftConcurrencyShims
   }
 }
 @objc public enum OfferwallCategory : Swift.Int {
-  case None, Finance, CPA, Social, CPS, Simple, Game
+  case None = 0
+  case Finance = 1
+  case CPA = 2
+  case Social = 3
+  case CPS = 4
+  case Game = 5
+  case Simple = 9
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -61,7 +67,7 @@ import _SwiftConcurrencyShims
   @objc @_Concurrency.MainActor func getAdPoint(_ point: PincruxOfferwall.OfferwallPointItems) async
 }
 @objc public class OfferwallPointItems : ObjectiveC.NSObject {
-  @objc public init(_ status: Swift.String, _ pubkey: Swift.Int, _ ad_coin1: Swift.Int, _ ad_coin2: Swift.Int, _ ad_coin3: Swift.Int, _ ad_coin4: Swift.Int, _ nowTime: Swift.Double)
+  @objc public init(_ status: Swift.String, _ pubkey: Swift.String, _ ad_coin1: Swift.Int, _ ad_coin2: Swift.Int, _ ad_coin3: Swift.Int, _ ad_coin4: Swift.Int, _ ad_coin5: Swift.Int, _ nowTime: Swift.Double)
   @objc public var financeCoin: Swift.Int {
     @objc get
   }
@@ -74,7 +80,14 @@ import _SwiftConcurrencyShims
   @objc public var cpsCoin: Swift.Int {
     @objc get
   }
+  @objc public var gameCoin: Swift.Int {
+    @objc get
+  }
   @objc deinit
+}
+public struct OfferwallPointItemAdpoint : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol PincruxTabMenuOptions {
   var font: UIKit.UIFont { get }
