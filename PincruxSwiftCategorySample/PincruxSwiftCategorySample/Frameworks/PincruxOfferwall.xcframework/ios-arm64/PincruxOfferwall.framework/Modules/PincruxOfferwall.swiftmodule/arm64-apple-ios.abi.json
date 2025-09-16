@@ -117,6 +117,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -4232,6 +4242,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PincruxOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7447,6 +7467,13 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/custom\/naverpay\/terms\/PincruxTermsViewNaverpay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5543,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/webview\/PincruxWebView.swift",
       "kind": "StringLiteral",
       "offset": 497,
@@ -7715,7 +7742,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/PincruxTableViewBase.swift",
       "kind": "StringLiteral",
-      "offset": 27911,
+      "offset": 28004,
       "length": 2,
       "value": "\"\""
     },
@@ -8114,7 +8141,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/service\/PincruxService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5804,
+      "offset": 5809,
       "length": 4,
       "value": "true"
     },
@@ -10221,7 +10248,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/PincruxCollectionViewControllerBase.swift",
       "kind": "Array",
-      "offset": 28686,
+      "offset": 29103,
       "length": 2,
       "value": "[]"
     },
@@ -10336,6 +10363,13 @@
       "offset": 191,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/terms\/PincruxTermsViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2541,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/ticket\/viewcontrollerbase\/main\/ticketchange\/PincruxViewControllerTicketChange.swift",
@@ -11299,21 +11333,21 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/PincruxOfferwallSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 5451,
+      "offset": 5523,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/PincruxOfferwallSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11191,
+      "offset": 11074,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/PincruxOfferwallSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11214,
+      "offset": 11097,
       "length": 2,
       "value": "\"\""
     },
@@ -11964,7 +11998,7 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/viewcontroller\/PincruxOfferwallViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5825,
+      "offset": 5918,
       "length": 5,
       "value": "false"
     },
@@ -12153,177 +12187,205 @@
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 932,
+      "offset": 899,
+      "length": 8,
+      "value": "\"912073\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 8,
+      "value": "\"912071\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
       "length": 9,
       "value": "\"DEFAULT\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1052,
       "length": 13,
       "value": "\"CJ_ONE_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 1086,
       "length": 8,
       "value": "\"CJ_ONE\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1052,
+      "offset": 1115,
       "length": 6,
       "value": "\"HANA\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1079,
+      "offset": 1142,
       "length": 8,
       "value": "\"LPOINT\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1108,
+      "offset": 1171,
       "length": 8,
       "value": "\"TICKET\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1138,
+      "offset": 1201,
       "length": 11,
       "value": "\"KT_TICKET\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1172,
+      "offset": 1235,
       "length": 12,
       "value": "\"FINNQ_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
+      "offset": 1265,
       "length": 7,
       "value": "\"FINNQ\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1234,
+      "offset": 1297,
       "length": 14,
       "value": "\"DAILYFUNDING\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1268,
+      "offset": 1331,
       "length": 9,
       "value": "\"FANPLUS\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1363,
       "length": 12,
       "value": "\"KBPAY_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1334,
+      "offset": 1397,
       "length": 11,
       "value": "\"KBPAY_DEV\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1363,
+      "offset": 1426,
       "length": 7,
       "value": "\"KBPAY\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1389,
+      "offset": 1452,
       "length": 8,
       "value": "\"KBLAND\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1420,
+      "offset": 1483,
       "length": 12,
       "value": "\"KBLAND_DEV\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1453,
+      "offset": 1516,
       "length": 10,
       "value": "\"IBK_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1479,
+      "offset": 1542,
       "length": 5,
       "value": "\"IBK\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1503,
+      "offset": 1566,
       "length": 8,
       "value": "\"PODOAL\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1533,
+      "offset": 1596,
       "length": 11,
       "value": "\"PODOAL_QA\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1567,
+      "offset": 1630,
       "length": 12,
       "value": "\"PODOAL_DEV\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1595,
+      "offset": 1658,
       "length": 5,
       "value": "\"SPC\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1621,
+      "offset": 1684,
       "length": 10,
       "value": "\"SPC_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1652,
+      "offset": 1715,
       "length": 10,
       "value": "\"NAVERPAY\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
       "kind": "StringLiteral",
-      "offset": 1687,
+      "offset": 1750,
       "length": 14,
       "value": "\"NAVERPAY_DEV\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1785,
+      "length": 10,
+      "value": "\"BOKYEMTV\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/common\/coreinfo\/PubKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1821,
+      "length": 15,
+      "value": "\"BOKYEMTV_TEST\""
     },
     {
       "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/custom\/direct\/PincruxDirectDetailObject.swift",
@@ -12333,9 +12395,9 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/viewcontroller\/PincruxTermsView.swift",
+      "filePath": "\/Users\/melo\/Documents\/GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/terms\/PincruxTermsViewDefault.swift",
       "kind": "BooleanLiteral",
-      "offset": 6030,
+      "offset": 4992,
       "length": 5,
       "value": "false"
     },
@@ -12587,728 +12649,756 @@
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1692,
+      "offset": 1701,
+      "length": 27,
+      "value": "\"ic_offerwall_gray102_hold\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1876,
       "length": 22,
       "value": "\"ic_offerwall_gray153\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1871,
+      "offset": 2055,
       "length": 27,
       "value": "\"ic_offerwall_gray153_hold\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2046,
+      "offset": 2230,
       "length": 22,
       "value": "\"ic_offerwall_gray219\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2216,
+      "offset": 2400,
       "length": 22,
       "value": "\"ic_offerwall_gray221\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2386,
+      "offset": 2570,
       "length": 22,
       "value": "\"ic_offerwall_gray224\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2556,
+      "offset": 2740,
       "length": 22,
       "value": "\"ic_offerwall_gray229\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2726,
+      "offset": 2910,
       "length": 22,
       "value": "\"ic_offerwall_gray238\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2896,
+      "offset": 3089,
+      "length": 27,
+      "value": "\"ic_offerwall_gray238_hold\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3264,
       "length": 22,
       "value": "\"ic_offerwall_gray244\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3066,
+      "offset": 3434,
       "length": 22,
       "value": "\"ic_offerwall_gray300\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3236,
+      "offset": 3604,
       "length": 22,
       "value": "\"ic_offerwall_gray500\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3406,
+      "offset": 3774,
       "length": 22,
       "value": "\"ic_offerwall_gray700\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3576,
+      "offset": 3944,
       "length": 22,
       "value": "\"ic_offerwall_gray999\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3751,
+      "offset": 4119,
       "length": 25,
       "value": "\"ic_offerwall_ibk_333333\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 4297,
       "length": 25,
       "value": "\"ic_offerwall_ibk_666666\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4107,
+      "offset": 4475,
       "length": 25,
       "value": "\"ic_offerwall_ibk_757575\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4285,
+      "offset": 4653,
       "length": 25,
       "value": "\"ic_offerwall_ibk_999999\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4463,
+      "offset": 4831,
       "length": 25,
       "value": "\"ic_offerwall_ibk_EEEEEE\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4641,
+      "offset": 5009,
       "length": 25,
       "value": "\"ic_offerwall_ibk_F4F4F4\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4819,
+      "offset": 5187,
       "length": 25,
       "value": "\"ic_offerwall_ibk_FFFFFF\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4993,
+      "offset": 5361,
       "length": 23,
       "value": "\"ic_offerwall_ibk_blue\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5194,
+      "offset": 5562,
       "length": 38,
       "value": "\"ic_offerwall_kbpay_attend_background\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5410,
+      "offset": 5778,
       "length": 38,
       "value": "\"ic_offerwall_kbpay_banner_background\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5607,
+      "offset": 5975,
       "length": 28,
       "value": "\"ic_offerwall_kbpay_gray241\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5788,
+      "offset": 6156,
       "length": 25,
       "value": "\"ic_offerwall_lpoint_red\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5972,
+      "offset": 6340,
       "length": 28,
       "value": "\"ic_offerwall_naverpay_blue\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6161,
+      "offset": 6529,
       "length": 29,
       "value": "\"ic_offerwall_naverpay_green\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6349,
+      "offset": 6717,
       "length": 28,
       "value": "\"ic_offerwall_naverpay_pink\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6559,
+      "offset": 6927,
       "length": 40,
       "value": "\"ic_offerwall_naverpay_point_background\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6755,
+      "offset": 7123,
       "length": 26,
       "value": "\"ic_offerwall_placeholder\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6925,
+      "offset": 7293,
       "length": 20,
       "value": "\"ic_offerwall_white\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7095,
+      "offset": 7463,
       "length": 23,
       "value": "\"ic_offerwall_whiteFFF\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7271,
+      "offset": 7639,
       "length": 25,
       "value": "\"ic_offerwall_white_hold\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7435,
+      "offset": 7803,
       "length": 18,
       "value": "\"ic_ticket_232_76\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7597,
+      "offset": 7965,
       "length": 20,
       "value": "\"ic_ticket_green166\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7761,
+      "offset": 8129,
       "length": 20,
       "value": "\"ic_ticket_green244\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8026,
+      "offset": 8394,
       "length": 18,
       "value": "\"ic_pincrux_alert\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8182,
+      "offset": 8550,
       "length": 17,
       "value": "\"ic_pincrux_back\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8339,
+      "offset": 8707,
       "length": 18,
       "value": "\"ic_pincrux_back2\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8506,
+      "offset": 8874,
       "length": 23,
       "value": "\"ic_pincrux_back2_dark\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8680,
+      "offset": 9048,
       "length": 24,
       "value": "\"ic_pincrux_back_lpoint\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8859,
+      "offset": 9227,
       "length": 26,
       "value": "\"ic_pincrux_back_naverpay\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9025,
+      "offset": 9393,
       "length": 18,
       "value": "\"ic_pincrux_check\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9190,
+      "offset": 9558,
       "length": 22,
       "value": "\"ic_pincrux_check_off\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9357,
+      "offset": 9725,
       "length": 21,
       "value": "\"ic_pincrux_check_on\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9525,
+      "offset": 9893,
       "length": 22,
       "value": "\"ic_pincrux_check_sim\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9702,
+      "offset": 10070,
       "length": 26,
       "value": "\"ic_pincrux_ckeckW_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9877,
+      "offset": 10245,
       "length": 23,
       "value": "\"ic_pincrux_close_icon\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10038,
+      "offset": 10406,
       "length": 17,
       "value": "\"ic_pincrux_file\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10200,
+      "offset": 10568,
       "length": 21,
       "value": "\"ic_pincrux_ibk_sort\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10374,
+      "offset": 10742,
       "length": 25,
       "value": "\"ic_pincrux_infoR_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10550,
+      "offset": 10918,
       "length": 24,
       "value": "\"ic_pincrux_info_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10731,
+      "offset": 11099,
       "length": 27,
       "value": "\"ic_pincrux_inquiry_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10911,
+      "offset": 11279,
       "length": 25,
       "value": "\"ic_pincrux_kbpay_attend\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11098,
+      "offset": 11466,
       "length": 30,
       "value": "\"ic_pincrux_kbpay_text_banner\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11266,
+      "offset": 11634,
       "length": 17,
       "value": "\"ic_pincrux_list\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11434,
+      "offset": 11802,
       "length": 24,
       "value": "\"ic_pincrux_menu_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11618,
+      "offset": 11986,
       "length": 29,
       "value": "\"ic_pincrux_more_icon_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11802,
+      "offset": 12179,
+      "length": 31,
+      "value": "\"ic_pincrux_naverpay_check_off\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12372,
+      "length": 30,
+      "value": "\"ic_pincrux_naverpay_check_on\""
+    },
+    {
+      "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12557,
       "length": 26,
       "value": "\"ic_pincrux_naverpay_game\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11989,
+      "offset": 12744,
       "length": 29,
       "value": "\"ic_pincrux_naverpay_mission\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12169,
+      "offset": 12924,
       "length": 24,
       "value": "\"ic_pincrux_notice_icon\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12344,
+      "offset": 13099,
       "length": 24,
       "value": "\"ic_pincrux_plus_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12517,
+      "offset": 13272,
       "length": 23,
       "value": "\"ic_pincrux_point_icon\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12706,
+      "offset": 13461,
       "length": 32,
       "value": "\"ic_pincrux_popup_checkR_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12902,
+      "offset": 13657,
       "length": 31,
       "value": "\"ic_pincrux_popup_check_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13086,
+      "offset": 13841,
       "length": 25,
       "value": "\"ic_pincrux_prevW_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13262,
+      "offset": 14017,
       "length": 24,
       "value": "\"ic_pincrux_prev_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13443,
+      "offset": 14198,
       "length": 27,
       "value": "\"ic_pincrux_privacy_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13637,
+      "offset": 14392,
       "length": 32,
       "value": "\"ic_pincrux_reward_dailyfunding\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13822,
+      "offset": 14577,
       "length": 25,
       "value": "\"ic_pincrux_reward_finnq\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14002,
+      "offset": 14757,
       "length": 26,
       "value": "\"ic_pincrux_reward_lpoint\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14185,
+      "offset": 14940,
       "length": 27,
       "value": "\"ic_pincrux_simple_checkin\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14376,
+      "offset": 15131,
       "length": 31,
       "value": "\"ic_pincrux_simple_text_banner\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14545,
+      "offset": 15300,
       "length": 17,
       "value": "\"ic_pincrux_sort\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14718,
+      "offset": 15473,
       "length": 27,
       "value": "\"ic_pincrux_sort_check_off\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14899,
+      "offset": 15654,
       "length": 26,
       "value": "\"ic_pincrux_sort_check_on\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15092,
+      "offset": 15847,
       "length": 33,
       "value": "\"ic_pincrux_sort_check_on_lpoint\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15276,
+      "offset": 16031,
       "length": 24,
       "value": "\"ic_pincrux_sort_simple\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15453,
+      "offset": 16208,
       "length": 25,
       "value": "\"ic_pincrux_terms_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15635,
+      "offset": 16390,
       "length": 27,
       "value": "\"ic_pincrux_ticketR_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15816,
+      "offset": 16571,
       "length": 26,
       "value": "\"ic_pincrux_ticket_how_01\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15996,
+      "offset": 16751,
       "length": 26,
       "value": "\"ic_pincrux_ticket_how_02\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16176,
+      "offset": 16931,
       "length": 26,
       "value": "\"ic_pincrux_ticket_how_03\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16356,
+      "offset": 17111,
       "length": 26,
       "value": "\"ic_pincrux_ticket_how_04\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16544,
+      "offset": 17299,
       "length": 30,
       "value": "\"ic_pincrux_ticket_more_tiket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16747,
+      "offset": 17502,
       "length": 36,
       "value": "\"ic_pincrux_ticket_none_data_ticket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16928,
+      "offset": 17683,
       "length": 21,
       "value": "\"ic_pincrux_top_icon\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17079,
+      "offset": 17834,
       "length": 12,
       "value": "\"iconArPrev\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17233,
+      "offset": 17988,
       "length": 18,
       "value": "\"iconArPrevCircle\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17395,
+      "offset": 18150,
       "length": 19,
       "value": "\"iconCheckDarkmode\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17546,
+      "offset": 18301,
       "length": 13,
       "value": "\"iconCheckKT\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17689,
+      "offset": 18444,
       "length": 12,
       "value": "\"iconCheckL\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17837,
+      "offset": 18592,
       "length": 15,
       "value": "\"iconCheckOnly\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17982,
+      "offset": 18737,
       "length": 12,
       "value": "\"iconCoupon\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18132,
+      "offset": 18887,
       "length": 16,
       "value": "\"iconCreditCard\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18280,
+      "offset": 19035,
       "length": 13,
       "value": "\"iconInfo999\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18419,
+      "offset": 19174,
       "length": 10,
       "value": "\"iconMore\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18577,
+      "offset": 19332,
       "length": 21,
       "value": "\"iconRewardOfferwall\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18744,
+      "offset": 19499,
       "length": 20,
       "value": "\"iconRewardPhoneFee\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18894,
+      "offset": 19649,
       "length": 12,
       "value": "\"iconTicket\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19022,
+      "offset": 19777,
       "length": 5,
       "value": "\"img\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19157,
+      "offset": 19912,
       "length": 12,
       "value": "\"logoKtLogo\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19287,
+      "offset": 20042,
       "length": 6,
       "value": "\"main\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19417,
+      "offset": 20172,
       "length": 9,
       "value": "\"newIcon\""
     },
     {
       "filePath": "\/Users\/melo\/Library\/Developer\/Xcode\/DerivedData\/PincruxOfferwall-gxrchcxnpjfxopbkcgywfkamvxpu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PincruxOfferwallSDK\/IntermediateBuildFilesPath\/PincruxOfferwall.build\/Release-iphoneos\/PincruxOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19552,
+      "offset": 20307,
       "length": 10,
       "value": "\"triangle\""
     }
