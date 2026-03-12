@@ -1,18 +1,18 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name PincruxOfferwall
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFAudio
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
 import DeveloperToolsSupport
 import Foundation
-import Network
 import Photos
 import PhotosUI
 import Swift
 import SwiftUI
+import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
@@ -20,9 +20,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @objc public enum OfferwallType : Swift.Int {
   case BAR_TYPE, BAR_PREMIUM_TYPE, PREMIUM_TYPE
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -30,9 +28,7 @@ import _SwiftConcurrencyShims
 }
 @objc public enum DarkMode : Swift.Int {
   case AUTO, LIGHT_ONLY, DARK_ONLY
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -40,9 +36,7 @@ import _SwiftConcurrencyShims
 }
 @objc public enum ViewControllerType : Swift.Int {
   case NavigationPush, Modal, ViewType
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -56,10 +50,7 @@ import _SwiftConcurrencyShims
   case CPS = 4
   case Game = 5
   case Simple = 9
-  case GameWeb = 99
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -184,12 +175,8 @@ public struct Random {
   public static func generate(_ upperBound: Swift.Int) -> Swift.Int
 }
 @_hasMissingDesignatedInitializers final public class AES256CBC {
-  #if compiler(>=5.3) && $NonescapableTypes
   final public class func encryptString(_ str: Swift.String, iv: Swift.String, password: Swift.String) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public class func decryptString(_ str: Swift.String, password: Swift.String) -> Swift.String?
-  #endif
   final public class func generatePassword() -> Swift.String
   final public class func randomText(_ length: Swift.Int, justLowerCase: Swift.Bool = false, whitespace: Swift.Bool = false) -> Swift.String
   @objc deinit
