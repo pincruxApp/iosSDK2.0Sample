@@ -7715,6 +7715,13 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxImageBannerDefault.swift",
+      "kind": "IntegerLiteral",
+      "offset": 937,
+      "length": 2,
+      "value": "-1"
+    },
+    {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/custom\/naverpay\/tableview\/PincruxTableViewNaverpay.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
@@ -9676,29 +9683,36 @@
     },
     {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxImageBannerBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 317,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxImageBannerBase.swift",
       "kind": "FloatLiteral",
-      "offset": 853,
+      "offset": 2861,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxImageBannerBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 919,
+      "offset": 2927,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxImageBannerBase.swift",
       "kind": "StringLiteral",
-      "offset": 1417,
+      "offset": 3282,
       "length": 27,
       "value": "\"Pincrux.CollectionVC.size\""
     },
     {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxImageBannerBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 1925,
+      "offset": 3790,
       "length": 1,
       "value": "0"
     },
@@ -10461,7 +10475,7 @@
     {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/tabview\/PincruxCollectionViewControllerBase.swift",
       "kind": "Array",
-      "offset": 32231,
+      "offset": 32841,
       "length": 2,
       "value": "[]"
     },
@@ -11357,28 +11371,35 @@
     {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxTextBannerBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 997,
+      "offset": 548,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxTextBannerBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3001,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxTextBannerBase.swift",
       "kind": "FloatLiteral",
-      "offset": 1109,
+      "offset": 3113,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxTextBannerBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 1175,
+      "offset": 3179,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/melo\/#GitHub\/iosSDK2.0_Swift6\/Offerwall2.0\/PincruxOfferwall\/PincruxOfferwall\/ui\/offerwall\/base\/tableview\/header\/bannerview\/PincruxTextBannerBase.swift",
       "kind": "IntegerLiteral",
-      "offset": 1837,
+      "offset": 3699,
       "length": 1,
       "value": "0"
     },

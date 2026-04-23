@@ -26,11 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1NGVCvA5ZIYooW/KZxpX95bJR7g=
+		ELz7tse7YpzQjxv2AzXmoIiq7W8=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9QVklZCKS6eXHRKmERrGrGoAIGU=
+		7J4hW2zbCfXVFl1THvWb/IF9NJs=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Jpr31mVgYJR1/ixa7meJ4ldA0fg=
+		K87zLeS3ptRU/zrpQbuR14We16w=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9QVklZCKS6eXHRKmERrGrGoAIGU=
+		7J4hW2zbCfXVFl1THvWb/IF9NJs=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		H8hRwQllrShlx9kNRYJmmGWH2tc=
+		HX/CX9vZlQTPW0SmT5y28g7G49U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -587,7 +587,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b000CP9WCfQdvoOyEsQ/Av/W5cyJHZBmFsl07lqAdAE=
+			LNNBd14glgpplhNPlKFrK4dyHVelFU6hXfOe+5aN8As=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -615,14 +615,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qvc7MY1IxxcY5Yy29Zdt6CCnOZwB6A8SSh9/Co3ihTE=
+			XEzFpoy6oQtJzO4AghGlIT9LS35ZlbW+rSaMsIlqlmE=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b000CP9WCfQdvoOyEsQ/Av/W5cyJHZBmFsl07lqAdAE=
+			LNNBd14glgpplhNPlKFrK4dyHVelFU6hXfOe+5aN8As=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -650,7 +650,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UYbxezMeof2zzOLTOXdcYLY7+quEP01O+CUes5AuxZI=
+			Gm6/6bGPqZ3ekpjyTPhCn2/6Cr+S2IB0tJiTYB+Fh4Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
