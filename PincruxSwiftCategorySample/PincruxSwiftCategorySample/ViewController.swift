@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var gameButton: UIButton!
     
     var offerwall : PincruxOfferwallSDK?
-    let pubkey = "INSERT_YOUR_PUBKEY" // TODO: (필수) 핀크럭스에서 발급 받은 매체 고유 키 입력
+    var pubkey = "" // Pub Key 입력 화면(PubkeyViewController)에서 넘겨받는 매체 고유 키
     let userkey = "INSERT_USER_KEY" // TODO: (필수) 매체에서 핀크럭스에게 제공할 유저 고유 키 입력
     
     override func viewDidLoad() {
@@ -68,6 +68,7 @@ class ViewController: UIViewController {
         self.offerwall?.setAdDetail(true)
         self.offerwall?.setEnableScrollTopButton(true)
         self.offerwall?.setEnableTab(true)
+        self.offerwall?.setViewControllerType(.NavigationPush)
     }
     
     func startOfferwall(_ category: OfferwallCategory) {

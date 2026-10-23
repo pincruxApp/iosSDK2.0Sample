@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7dA-vN-qAQ"/>
+                        <segue destination="N59-9l-cTG" kind="relationship" relationship="rootViewController" id="7dA-vN-qAQ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I4j-69-fH5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -28,7 +28,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PincruxSwiftCategorySample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="categoryVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="PincruxSwiftCategorySample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,8 +242,64 @@
             </objects>
             <point key="canvasLocation" x="-167.17557251908397" y="-27.464788732394368"/>
         </scene>
+        <!--Pubkey View Controller-->
+        <scene sceneID="O8s-Dw-15L">
+            <objects>
+                <viewController id="N59-9l-cTG" customClass="PubkeyViewController" customModule="PincruxSwiftCategorySample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4mL-1d-a7k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pincrux에서 발급받은 Pub Key를 입력하세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFN-Hc-RL1">
+                                <rect key="frame" x="30" y="188" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nAA-ms-G0e">
+                                <rect key="frame" x="30" y="239" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4c-V8-Xa5">
+                                <rect key="frame" x="30" y="303" width="354" height="31"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다음"/>
+                                <connections>
+                                    <action selector="nextBtt:" destination="N59-9l-cTG" eventType="touchUpInside" id="iNR-jy-Tg9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wSB-Df-kYE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="B4c-V8-Xa5" firstAttribute="leading" secondItem="nAA-ms-G0e" secondAttribute="leading" id="6ec-Ll-vxk"/>
+                            <constraint firstItem="qFN-Hc-RL1" firstAttribute="top" secondItem="wSB-Df-kYE" secondAttribute="top" constant="100" id="Nht-Gn-hLy"/>
+                            <constraint firstItem="nAA-ms-G0e" firstAttribute="top" secondItem="qFN-Hc-RL1" secondAttribute="bottom" constant="30" id="T3A-Hd-yDt"/>
+                            <constraint firstItem="wSB-Df-kYE" firstAttribute="trailing" secondItem="qFN-Hc-RL1" secondAttribute="trailing" constant="30" id="UXK-e9-YE9"/>
+                            <constraint firstItem="B4c-V8-Xa5" firstAttribute="trailing" secondItem="nAA-ms-G0e" secondAttribute="trailing" id="Vzn-w3-1Kh"/>
+                            <constraint firstItem="nAA-ms-G0e" firstAttribute="leading" secondItem="qFN-Hc-RL1" secondAttribute="leading" id="WfI-wR-0JV"/>
+                            <constraint firstItem="nAA-ms-G0e" firstAttribute="trailing" secondItem="qFN-Hc-RL1" secondAttribute="trailing" id="XKn-y4-lv9"/>
+                            <constraint firstItem="qFN-Hc-RL1" firstAttribute="leading" secondItem="wSB-Df-kYE" secondAttribute="leading" constant="30" id="YMU-ne-JiZ"/>
+                            <constraint firstItem="B4c-V8-Xa5" firstAttribute="top" secondItem="nAA-ms-G0e" secondAttribute="bottom" constant="30" id="mVg-YP-jug"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="7s5-2J-0JE"/>
+                    <connections>
+                        <outlet property="pubkeyfeild" destination="nAA-ms-G0e" id="Ye3-Sj-0qn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkM-7t-qFa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-686" y="648"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Ok66adAlFGlTVZMJWXaSH3YvHwk=
+		X9R4liBOf+0FJhNPxHj+aEBnUuE=
 		</data>
 		<key>BasicNavigationView.nib</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qCIBcMbqHOCDS6Fa6IwVE9prLfo=
+		dEqzy+Qns68SmbvJ6MSJm0RiArY=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UCdGgbjm1wp1rXht5GD0LIBUU3k=
+		uFGaDrFVlINDG3XdssPND66zzjo=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kID17o1FQHM2grdu/xvxhQnRMiM=
+		zenxUYyovIWNTg5ROqtjbGde9E4=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UCdGgbjm1wp1rXht5GD0LIBUU3k=
+		uFGaDrFVlINDG3XdssPND66zzjo=
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		52O1o9uavyTJzQ+i1DLsCNwRTS0=
+		GcRDUmFgDsnEDwSBBanmIqFQtSU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -490,7 +490,7 @@
 		</data>
 		<key>PincruxUseInfoView.nib</key>
 		<data>
-		odRDzmhl6W+q5wOh/dWltwaDE4g=
+		8K7aMmppNre5eq/Pn4cZ2Db4ql8=
 		</data>
 		<key>PincruxViewControllerCertificationTicket.nib</key>
 		<data>
@@ -540,7 +540,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I/oAZ1pOrg/bRrVWxCEEIHa1Dfk=
+			IxDJn3LRibX4RGxP298b+1xAz2E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -552,7 +552,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bo3wnODqwLxQzG66xwgKqqKjpGQiL2HG+nU/RIxHzGE=
+			aUd2RL/NahE/wk5rR+Cnk8ZFH2uX73AZ8N+kgBjlrpg=
 			</data>
 		</dict>
 		<key>BasicNavigationView.nib</key>
@@ -587,7 +587,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rqgLc21o8ezI0gyDe7uyVon3OBilh8J8QZIIbruDajQ=
+			4nfLbkOG0kp4lrz7MLRqmBA4ClKMagFUyiSBN6pgc9Y=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -615,14 +615,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lJ9mXAMFJW8rDwjQZNCVwIx8qf6GG0IXAeSfFnufhv8=
+			Du99Yi3hHJN91t8O70LVAOcUscctvSrPbMaDmSlWwQ0=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rqgLc21o8ezI0gyDe7uyVon3OBilh8J8QZIIbruDajQ=
+			4nfLbkOG0kp4lrz7MLRqmBA4ClKMagFUyiSBN6pgc9Y=
 			</data>
 		</dict>
 		<key>Modules/PincruxOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -650,7 +650,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+5n3cLd7pzzNXsLyJGrMpDiWOSF1u4NZ9lm793nd4mQ=
+			Eo0C1gVlT+zg/fxoDO74Bi24lX/bbEk18gZiB1FYtnc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1392,7 +1392,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jwT1Qb6Ad/0LBO6FHK1GVpFd+e6DS3Q2lwihOGw4CG4=
+			SpgCT3bRuR8eEK526jJTN/vPQ/bLX7dj0Zm8Bn00Qds=
 			</data>
 		</dict>
 		<key>PincruxViewControllerCertificationTicket.nib</key>
@@ -1476,7 +1476,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q5j0ZsFnNuAo1vgORttXsY9GvsGh/53hcDgxXHQbVqQ=
+			6gqtpa5Kv/Gn0V/Gln7p16pSrGJvlEVCU0IvOWm4kXk=
 			</data>
 			<key>optional</key>
 			<true/>
