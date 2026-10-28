@@ -462,6 +462,18 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)enterForeground;
 - (void)setOfferwallCategory:(enum OfferwallCategory)category;
 - (void)setUseSafeArea:(BOOL)useSafeArea;
+/// 오퍼월 화면에서 상태바를 화면 위쪽에 고정할지 정한다. (iPhone Duo 등 iOS 27.1+ 의 “세로 바” 대응)
+/// <ul>
+///   <li>
+///     true: 오퍼월 화면이 떠 있는 동안 상태바를 화면 위쪽에 둔다.
+///   </li>
+///   <li>
+///     false(기본): 시스템 배치를 따른다. 펼친 Duo 가로 화면에서 상태바가 오른쪽 세로 열에 놓인다.
+///     KT 티켓충전소는 매체 커스텀으로 이 설정과 관계없이 항상 위쪽에 둔다.
+///     initWithPubkeyAndUsrkey 다음, startOfferwall 전에 호출. iOS 27.1 미만에는 영향 없음.
+///   </li>
+/// </ul>
+- (void)setUseTopStatusBar:(BOOL)useTopStatusBar;
 - (void)getAdPointWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler SWIFT_DEPRECATED;
 - (void)getAdPoint:(NSString * _Nonnull)pubkey completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)destroyView;
@@ -958,6 +970,18 @@ SWIFT_CLASS("_TtC16PincruxOfferwall19PincruxOfferwallSDK")
 - (void)enterForeground;
 - (void)setOfferwallCategory:(enum OfferwallCategory)category;
 - (void)setUseSafeArea:(BOOL)useSafeArea;
+/// 오퍼월 화면에서 상태바를 화면 위쪽에 고정할지 정한다. (iPhone Duo 등 iOS 27.1+ 의 “세로 바” 대응)
+/// <ul>
+///   <li>
+///     true: 오퍼월 화면이 떠 있는 동안 상태바를 화면 위쪽에 둔다.
+///   </li>
+///   <li>
+///     false(기본): 시스템 배치를 따른다. 펼친 Duo 가로 화면에서 상태바가 오른쪽 세로 열에 놓인다.
+///     KT 티켓충전소는 매체 커스텀으로 이 설정과 관계없이 항상 위쪽에 둔다.
+///     initWithPubkeyAndUsrkey 다음, startOfferwall 전에 호출. iOS 27.1 미만에는 영향 없음.
+///   </li>
+/// </ul>
+- (void)setUseTopStatusBar:(BOOL)useTopStatusBar;
 - (void)getAdPointWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler SWIFT_DEPRECATED;
 - (void)getAdPoint:(NSString * _Nonnull)pubkey completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)destroyView;

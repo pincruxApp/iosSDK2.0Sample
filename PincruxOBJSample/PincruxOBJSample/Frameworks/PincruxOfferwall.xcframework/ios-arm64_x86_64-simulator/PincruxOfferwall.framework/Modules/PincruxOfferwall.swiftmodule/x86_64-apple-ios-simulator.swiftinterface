@@ -202,6 +202,7 @@ public struct Random {
   @_Concurrency::MainActor @objc public func enterForeground()
   @objc @_Concurrency::MainActor public func setOfferwallCategory(_ category: PincruxOfferwall::OfferwallCategory)
   @objc @_Concurrency::MainActor public func setUseSafeArea(_ useSafeArea: Swift::Bool)
+  @objc @_Concurrency::MainActor public func setUseTopStatusBar(_ useTopStatusBar: Swift::Bool)
   @available(*, deprecated)
   @_Concurrency::MainActor @objc public func getAdPoint() async
   @_Concurrency::MainActor @objc public func getAdPoint(_ pubkey: Swift::String) async
